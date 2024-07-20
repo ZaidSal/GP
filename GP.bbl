@@ -1,0 +1,190 @@
+\begin{thebibliography}{10}
+
+\bibitem{CFWIMG}
+\url{https://www.cisco.com/c/en_uk/products/security/firewalls/index-1b.html#~products}.
+\newblock Accessed: 2024-06-11.
+
+\bibitem{FNFWIMG}
+\url{https://www.avfirewalls.com/FortiGate-1200D.asp}.
+\newblock Accessed: 2024-06-11.
+
+\bibitem{FSIMG}
+\url{https://www.avfirewalls.com/FortiSwitch-448D.asp}.
+\newblock Accessed: 2024-06-11.
+
+\bibitem{FAPIMG}
+\url{https://www.enbitcon.com/shop/fortinet/promo/fortinet-promo/fortinet-fortiap-231g-fap-231g-e}.
+\newblock Accessed: 2024-06-11.
+
+\bibitem{NATIMG}
+\url{https://www.computernetworkingnotes.com/ccna-study-guide/how-to-configure-dynamic-nat-in-cisco-router.html}.
+\newblock Accessed: 2024-06-11.
+
+\bibitem{DNSIMG}
+\url{https://www.cloudflare.com/learning/dns/what-is-dns/}.
+\newblock Accessed: 2024-06-11.
+
+\bibitem{YU}
+\url{https://www.yu.edu.jo}.
+\newblock Accessed: 2024-06-01.
+
+\bibitem{FortinetAbtus}
+\url{https://www.fortinet.com/corporate/about-us/about-us}.
+\newblock Accessed: 2024-06-05.
+
+\bibitem{FNvsCISCO}
+\url{https://www.netgate.com/blog/cisco-vs.-fortinet}.
+\newblock Accessed: 2024-06-01.
+
+\bibitem{Solar}
+\url{https://www.ammonnews.net/article/617705}.
+\newblock Accessed: 2024-06-10.
+
+\bibitem{CISCOInntoFin}
+\url{https://www.ineteconomics.org/research/research-papers/the-pursuit-of-shareholder-value-ciscos-transformation-from-innovation-to-financialization}.
+\newblock Accessed: 2024-06-10.
+
+\bibitem{HeirNWDes}
+\url{https://www.auvik.com/franklyit/blog/hierarchical-network-design}.
+\newblock Accessed: 2024-06-11.
+
+\bibitem{FWvsRout}
+\url{https://www.checkpoint.com/cyber-hub/network-security/what-is-firewall/router-vs-firewall/}.
+\newblock Accessed: 2024-06-09.
+
+\bibitem{legtoNGFW}
+\url{https://luminisindia.com/it-networking-blog/153-journey-from-legacy-to-next-generation-firewalls-ngfw}.
+\newblock Accessed: 2024-06-09.
+
+\bibitem{Policies}
+\url{https://docs.fortinet.com/document/fortigate/7.4.4/administration-guide/118003/policies#:~:text=These%20policies%20are%20essentially%20discrete,to%20pass%20through%20the%20FortiGate.}
+\newblock Accessed: 2024-06-09.
+
+\bibitem{switch}
+\url{https://www.cloudflare.com/learning/network-layer/what-is-a-network-switch/}.
+\newblock Accessed: 2024-06-01.
+
+\bibitem{VLAN}
+\url{https://www.solarwinds.com/resources/it-glossary/vlan}.
+\newblock Accessed: 2024-06-01.
+
+\bibitem{FortiAP}
+\url{https://www.fortinet.com/products/wireless-access-points}.
+\newblock Accessed: 2024-06-01.
+
+\bibitem{NATTing}
+\url{https://docs.fortinet.com/document/fortigate/5.6.0/cookbook/335151/installing-a-fortigate-in-nat-mode}.
+\newblock Accessed: 2024-06-02.
+
+\bibitem{SDWAN}
+\url{https://www.fortinet.com/products/sd-wan}.
+\newblock Accessed: 2024-06-02.
+
+\bibitem{LinkMonitor}
+\url{https://docs.fortinet.com/document/fortigate/7.4.4/administration-guide/76624/link-monitor}.
+\newblock Accessed: 2024-06-02.
+
+\bibitem{HA}
+\url{https://docs.fortinet.com/document/fortigate/7.4.4/administration-guide/900885/ha-active-passive-cluster-setup}.
+\newblock Accessed: 2024-06-04.
+
+\bibitem{HA2}
+\url{https://docs.paloaltonetworks.com/pan-os/9-1/pan-os-admin/high-availability/ha-overview}.
+\newblock Accessed: 2024-06-04.
+
+\bibitem{DMZ}
+https://docs.fortinet.com/document/fortigate/5.4.0/cookbook/361386/protecting-a-web-server-with-dmz.
+\newblock Accessed: 2024-06-04.
+
+\bibitem{Site2Site}
+\url{https://www.fortinet.com/resources/cyberglossary/what-is-site-to-site-vpn.}
+\newblock Accessed: 2024-06-02.
+
+\bibitem{IPSec}
+\url{https://www.cloudflare.com/learning/network-layer/what-is-ipsec/}.
+\newblock Accessed: 2024-06-11.
+
+\bibitem{IPSecvsSSL}
+\url{https://www.cloudflare.com/learning/network-layer/ipsec-vs-ssl-vpn/}.
+\newblock Accessed: 2024-06-11.
+
+\bibitem{VRRP}
+\url{https://docs.fortinet.com/document/fortigate/7.4.4/administration-guide/850547/vrrp}.
+\newblock Accessed: 2024-06-05.
+
+\bibitem{DNS}
+\url{https://www.fortinet.com/resources/cyberglossary/what-is-dns}.
+\newblock Accessed: 2024-06-05.
+
+\bibitem{DHCP}
+\url{https://www.fortinet.com/resources/cyberglossary/dynamic-host-configuration-protocol-dhcp}.
+\newblock Accessed: 2024-06-05.
+
+\bibitem{TFTP}
+\url{https://www.ibm.com/docs/en/i/7.3?topic=services-trivial-file-transfer-protocol}.
+\newblock Accessed: 2024-06-05.
+
+\bibitem{Fortilink}
+\url{https://docs.fortinet.com/document/fortigate/6.4.0/ports-and-protocols/899996/fortilink}.
+\newblock Accessed: 2024-06-04.
+
+\bibitem{webfilter}
+\url{https://docs.fortinet.com/document/fortigate/7.4.4/administration-guide/833698/web-filter}.
+\newblock Accessed: 2024-06-04.
+
+\bibitem{DNSfilter}
+\url{https://docs.fortinet.com/document/fortigate/6.2.16/cookbook/605868/dns-filter}.
+\newblock Accessed: 2024-06-04.
+
+\bibitem{AppControl}
+\url{https://docs.fortinet.com/document/fortigate/6.2.16/cookbook/302748/application-control}.
+\newblock Accessed: 2024-06-07.
+
+\bibitem{IPS}
+\url{https://docs.fortinet.com/document/fortigate/6.2.16/cookbook/565562/intrusion-prevention}.
+\newblock Accessed: 2024-06-09.
+
+\bibitem{antivirus}
+\url{https://docs.fortinet.com/document/fortigate/6.2.16/cookbook/836396/antivirus}.
+\newblock Accessed: 2024-06-09.
+
+\bibitem{SSLinspection}
+\url{https://docs.fortinet.com/document/fortigate/6.2.16/cookbook/929997/ssl-inspection}.
+\newblock Accessed: 2024-06-09.
+
+\bibitem{SharedTrafficShaping}
+\url{https://docs.fortinet.com/document/fortigate/6.2.16/cookbook/933502/shared-traffic-shaper}.
+\newblock Accessed: 2024-06-10.
+
+\bibitem{PerIPTrafficShaping}
+\url{https://docs.fortinet.com/document/fortigate/6.2.16/cookbook/885253/per-ip-traffic-shaper}.
+\newblock Accessed: 2024-06-10.
+
+\bibitem{YUMoneyIssue}
+\url{https://www.petra.gov.jo/Include/InnerPage.jsp?ID=267484&lang=ar&name=news}, note = {Accessed: 2024-06-11}.
+
+\bibitem{IEEE802}
+\url{https://ieee802.org/}.
+\newblock Accessed: 2024-06-11.
+
+\bibitem{ISO27001}
+\url{https://www.iso.org/standard/27001}.
+\newblock Accessed: 2024-06-11.
+
+\bibitem{ITIL}
+\url{https://www.ibm.com/topics/it-infrastructure-library}.
+\newblock Accessed: 2024-06-11.
+
+\bibitem{ACM}
+\url{https://www.acm.org/code-of-ethics}.
+\newblock Accessed: 2024-06-11.
+
+\bibitem{IEEE}
+\url{https://www.ieee.org/about/corporate/governance/p7-8.html}.
+\newblock Accessed: 2024-06-11.
+
+\bibitem{FortinetCOC}
+\url{https://investor.fortinet.com/committee-details/code-business-conduct-and-ethics}.
+\newblock Accessed: 2024-06-11.
+
+\end{thebibliography}
