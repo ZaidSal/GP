@@ -1,46 +1,52 @@
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {1.1}{\ignorespaces Fortinet Logo}}{2}{}%
-\contentsline {figure}{\numberline {1.2}{\ignorespaces High Level Design}}{7}{}%
+\contentsline {figure}{\numberline {1.2}{\ignorespaces High Level Design}}{5}{}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {2.1}{\ignorespaces Solar Panels at Yarmouk University as seen on Google Maps}}{10}{}%
+\contentsline {figure}{\numberline {2.1}{\ignorespaces Solar Panels at Yarmouk University as seen on Google Maps}}{8}{}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {3.1}{\ignorespaces Legacy Firewall from CISCO \cite {CFWIMG}}}{18}{}%
-\contentsline {figure}{\numberline {3.2}{\ignorespaces Next-Generation Firewall from Fortinet \cite {FNFWIMG}}}{18}{}%
-\contentsline {figure}{\numberline {3.3}{\ignorespaces FortiGate Policy Management}}{19}{}%
-\contentsline {figure}{\numberline {3.4}{\ignorespaces FortiSwitch from Fortinet \cite {FSIMG}}}{19}{}%
-\contentsline {figure}{\numberline {3.5}{\ignorespaces FortiAP from Fortinet \cite {FAPIMG}}}{21}{}%
-\contentsline {figure}{\numberline {3.6}{\ignorespaces FortiGate NAT Configuration \cite {NATIMG}}}{22}{}%
-\contentsline {figure}{\numberline {3.7}{\ignorespaces FortiGate HA Configuration}}{23}{}%
-\contentsline {figure}{\numberline {3.8}{\ignorespaces FortiGate DNS Configuration \cite {DNSIMG}}}{28}{}%
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Legacy Firewall from CISCO \cite {CFWIMG}}}{16}{}%
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Next-Generation Firewall from Fortinet \cite {FNFWIMG}}}{17}{}%
+\contentsline {figure}{\numberline {3.3}{\ignorespaces FortiGate Policy Management}}{17}{}%
+\contentsline {figure}{\numberline {3.4}{\ignorespaces FortiSwitch from Fortinet \cite {FSIMG}}}{18}{}%
+\contentsline {figure}{\numberline {3.5}{\ignorespaces FortiAP from Fortinet \cite {FAPIMG}}}{19}{}%
+\contentsline {figure}{\numberline {3.6}{\ignorespaces FortiGate 1800F from Fortinet \cite {1800FIMG}}}{20}{}%
+\contentsline {figure}{\numberline {3.7}{\ignorespaces FortiSwitch 1048E from Fortinet \cite {1048EIMG}}}{21}{}%
+\contentsline {figure}{\numberline {3.8}{\ignorespaces FortiSwitch 524D from Fortinet \cite {524DIMG}}}{22}{}%
+\contentsline {figure}{\numberline {3.9}{\ignorespaces FortiSwitch 424D from Fortinet \cite {424D}}}{22}{}%
+\contentsline {figure}{\numberline {3.10}{\ignorespaces FortiGate 600F from Fortinet \cite {600FIMG}}}{23}{}%
+\contentsline {figure}{\numberline {3.11}{\ignorespaces FortiAP 431F from Fortinet \cite {FAP431FIMG}}}{24}{}%
+\contentsline {figure}{\numberline {3.12}{\ignorespaces FortiAP 432F from Fortinet \cite {FAP432FIMG}}}{25}{}%
+\contentsline {figure}{\numberline {3.13}{\ignorespaces FortiGate NAT Configuration \cite {NATIMG}}}{26}{}%
+\contentsline {figure}{\numberline {3.14}{\ignorespaces FortiGate HA Configuration}}{28}{}%
+\contentsline {figure}{\numberline {3.15}{\ignorespaces FortiGate DNS Configuration \cite {DNSIMG}}}{32}{}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {4.1}{\ignorespaces FortiGate Ports Page}}{39}{}%
-\contentsline {figure}{\numberline {4.2}{\ignorespaces FortiGate Port Configuration}}{40}{}%
-\contentsline {figure}{\numberline {4.3}{\ignorespaces FortiGate Interface Role Configuration}}{40}{}%
-\contentsline {figure}{\numberline {4.4}{\ignorespaces FortiGate DNS Configuration}}{40}{}%
-\contentsline {figure}{\numberline {4.5}{\ignorespaces FortiGate Routes Configuration}}{40}{}%
-\contentsline {figure}{\numberline {4.6}{\ignorespaces FortiGate IP Policy Configuration}}{41}{}%
-\contentsline {figure}{\numberline {4.7}{\ignorespaces FortiGate IP Policy Configuration Options}}{41}{}%
-\contentsline {figure}{\numberline {4.8}{\ignorespaces FortiGate Antivirus Configuration}}{41}{}%
-\contentsline {figure}{\numberline {4.9}{\ignorespaces FortiGate Web Filtering Configuration}}{42}{}%
-\contentsline {figure}{\numberline {4.10}{\ignorespaces FortiGate Web Filtering Configuration}}{43}{}%
-\contentsline {figure}{\numberline {4.11}{\ignorespaces FortiGate Web Filtering Configuration}}{43}{}%
-\contentsline {figure}{\numberline {4.12}{\ignorespaces FortiGate DNS Filtering Configuration}}{43}{}%
-\contentsline {figure}{\numberline {4.13}{\ignorespaces FortiGate Application Control Configuration}}{44}{}%
-\contentsline {figure}{\numberline {4.14}{\ignorespaces FortiGate VPN Setup}}{44}{}%
-\contentsline {figure}{\numberline {4.15}{\ignorespaces FortiGate VPN Setup}}{45}{}%
-\contentsline {figure}{\numberline {4.16}{\ignorespaces FortiGate Access Points}}{45}{}%
-\contentsline {figure}{\numberline {4.17}{\ignorespaces FortiGate FortiLink}}{45}{}%
-\contentsline {figure}{\numberline {4.18}{\ignorespaces FortiGate FortiLink Ports}}{45}{}%
-\contentsline {figure}{\numberline {4.19}{\ignorespaces FortiGate Topology}}{46}{}%
-\contentsline {figure}{\numberline {4.20}{\ignorespaces FortiGate VLANs}}{46}{}%
-\contentsline {figure}{\numberline {4.21}{\ignorespaces FortiGate FortiLink Ports}}{46}{}%
-\contentsline {figure}{\numberline {4.22}{\ignorespaces FortiGate SSID Configuration}}{46}{}%
-\contentsline {figure}{\numberline {4.23}{\ignorespaces FortiGate VIP Configuration}}{47}{}%
-\contentsline {figure}{\numberline {4.24}{\ignorespaces FortiGate HA Configuration}}{48}{}%
-\contentsline {figure}{\numberline {4.25}{\ignorespaces FortiGate Traffic Shaping Configuration}}{48}{}%
-\contentsline {figure}{\numberline {4.26}{\ignorespaces FortiGate Traffic Shaping Policy Configuration}}{49}{}%
-\contentsline {figure}{\numberline {4.27}{\ignorespaces FortiGate Automation Configuration}}{49}{}%
-\addvspace {10\p@ }
+\contentsline {figure}{\numberline {4.1}{\ignorespaces FortiGate Ports Page}}{44}{}%
+\contentsline {figure}{\numberline {4.2}{\ignorespaces FortiGate Port Configuration}}{45}{}%
+\contentsline {figure}{\numberline {4.3}{\ignorespaces FortiGate Interface Role Configuration}}{45}{}%
+\contentsline {figure}{\numberline {4.4}{\ignorespaces FortiGate DNS Configuration}}{45}{}%
+\contentsline {figure}{\numberline {4.5}{\ignorespaces FortiGate Routes Configuration}}{46}{}%
+\contentsline {figure}{\numberline {4.6}{\ignorespaces FortiGate IP Policy Configuration}}{46}{}%
+\contentsline {figure}{\numberline {4.7}{\ignorespaces FortiGate IP Policy Configuration Options}}{46}{}%
+\contentsline {figure}{\numberline {4.8}{\ignorespaces FortiGate Antivirus Configuration}}{47}{}%
+\contentsline {figure}{\numberline {4.9}{\ignorespaces FortiGate Web Filtering Configuration}}{48}{}%
+\contentsline {figure}{\numberline {4.10}{\ignorespaces FortiGate Web Filtering Configuration}}{48}{}%
+\contentsline {figure}{\numberline {4.11}{\ignorespaces FortiGate Web Filtering Configuration}}{49}{}%
+\contentsline {figure}{\numberline {4.12}{\ignorespaces FortiGate DNS Filtering Configuration}}{49}{}%
+\contentsline {figure}{\numberline {4.13}{\ignorespaces FortiGate Application Control Configuration}}{49}{}%
+\contentsline {figure}{\numberline {4.14}{\ignorespaces FortiGate VPN Setup}}{50}{}%
+\contentsline {figure}{\numberline {4.15}{\ignorespaces FortiGate VPN Setup}}{50}{}%
+\contentsline {figure}{\numberline {4.16}{\ignorespaces FortiGate Access Points}}{50}{}%
+\contentsline {figure}{\numberline {4.17}{\ignorespaces FortiGate FortiLink}}{51}{}%
+\contentsline {figure}{\numberline {4.18}{\ignorespaces FortiGate FortiLink Ports}}{51}{}%
+\contentsline {figure}{\numberline {4.19}{\ignorespaces FortiGate Topology}}{51}{}%
+\contentsline {figure}{\numberline {4.20}{\ignorespaces FortiGate VLANs}}{52}{}%
+\contentsline {figure}{\numberline {4.21}{\ignorespaces FortiGate FortiLink Ports}}{52}{}%
+\contentsline {figure}{\numberline {4.22}{\ignorespaces FortiGate SSID Configuration}}{52}{}%
+\contentsline {figure}{\numberline {4.23}{\ignorespaces FortiGate VIP Configuration}}{53}{}%
+\contentsline {figure}{\numberline {4.24}{\ignorespaces FortiGate HA Configuration}}{54}{}%
+\contentsline {figure}{\numberline {4.25}{\ignorespaces FortiGate Traffic Shaping Configuration}}{55}{}%
+\contentsline {figure}{\numberline {4.26}{\ignorespaces FortiGate Traffic Shaping Policy Configuration}}{55}{}%
+\contentsline {figure}{\numberline {4.27}{\ignorespaces FortiGate Automation Configuration}}{56}{}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }

@@ -3,91 +3,94 @@
 \contentsline {chapter}{\numberline {1}Introduction}{1}{}%
 \contentsline {section}{\numberline {1.1}Problem Statement and Purpose}{1}{}%
 \contentsline {section}{\numberline {1.2}Background}{1}{}%
-\contentsline {section}{\numberline {1.3}Aims and objectives}{1}{}%
-\contentsline {section}{\numberline {1.4}Our solution}{2}{}%
+\contentsline {section}{\numberline {1.3}Aims and Objectives}{1}{}%
+\contentsline {section}{\numberline {1.4}Our Solution}{2}{}%
 \contentsline {section}{\numberline {1.5}Key Technical Details}{3}{}%
-\contentsline {subsection}{\numberline {1.5.1}Network Topology}{3}{}%
-\contentsline {subsection}{\numberline {1.5.2}FortiGate Firewalls}{3}{}%
-\contentsline {subsection}{\numberline {1.5.3}Site-to-Site VPN}{3}{}%
-\contentsline {subsection}{\numberline {1.5.4}Demilitarized Zone (DMZ)}{3}{}%
-\contentsline {subsection}{\numberline {1.5.5}Web Application Firewall (WAF)}{4}{}%
-\contentsline {subsection}{\numberline {1.5.6}Software-Defined WAN (SD-WAN)}{4}{}%
-\contentsline {subsection}{\numberline {1.5.7}Network Security Services}{4}{}%
-\contentsline {subsection}{\numberline {1.5.8}Network Management and Monitoring}{4}{}%
-\contentsline {subsection}{\numberline {1.5.9}Wireless Network}{4}{}%
-\contentsline {subsection}{\numberline {1.5.10}Load Balancing and Redundancy}{4}{}%
-\contentsline {subsection}{\numberline {1.5.11}Network Access Control (NAC)}{5}{}%
-\contentsline {subsection}{\numberline {1.5.12}Scalability and Future-proofing}{5}{}%
-\contentsline {subsection}{\numberline {1.5.13}Example Configuration Details}{5}{}%
-\contentsline {subsubsection}{FortiGate Firewall Configuration Example}{5}{}%
-\contentsline {subsubsection}{Site-to-Site VPN Configuration Example}{6}{}%
-\contentsline {section}{\numberline {1.6}High-Level Design}{7}{}%
-\contentsline {section}{\numberline {1.7}Report structure}{7}{}%
-\contentsline {chapter}{\numberline {2}Background}{9}{}%
-\contentsline {section}{\numberline {2.1}Overview and context}{9}{}%
-\contentsline {section}{\numberline {2.2}Target Market - Yarmouk University}{9}{}%
-\contentsline {section}{\numberline {2.3}Potential Ethical and Environmental Issues}{10}{}%
-\contentsline {section}{\numberline {2.4}Other Approaches}{11}{}%
-\contentsline {chapter}{\numberline {3}Design}{12}{}%
-\contentsline {section}{\numberline {3.1}Design Overview}{12}{}%
-\contentsline {subsection}{\numberline {3.1.1}Design Description}{12}{}%
-\contentsline {subsection}{\numberline {3.1.2}Detailed figure}{12}{}%
-\contentsline {section}{\numberline {3.2}Design Details}{15}{}%
-\contentsline {subsection}{\numberline {3.2.1}Design Specifications}{15}{}%
-\contentsline {section}{\numberline {3.3}Design Process}{16}{}%
-\contentsline {subsection}{\numberline {3.3.1}Hierarchical Networking Design}{16}{}%
-\contentsline {subsection}{\numberline {3.3.2}FortiGate, a Next-Generation Firewall}{16}{}%
-\contentsline {subsubsection}{Firewall vs Router}{16}{}%
-\contentsline {subsubsection}{Legacy vs Next-Generation Firewalls}{17}{}%
-\contentsline {subsection}{\numberline {3.3.3}Switches}{19}{}%
-\contentsline {subsection}{\numberline {3.3.4}VLANs}{20}{}%
-\contentsline {subsection}{\numberline {3.3.5}Wireless Access Points}{20}{}%
-\contentsline {subsection}{\numberline {3.3.6}NATting}{20}{}%
-\contentsline {subsection}{\numberline {3.3.7}SD-WAN \& Link Monitoring}{22}{}%
-\contentsline {subsection}{\numberline {3.3.8}High Availability (HA)}{23}{}%
-\contentsline {subsection}{\numberline {3.3.9}DMZ}{24}{}%
-\contentsline {subsection}{\numberline {3.3.10}Site-to-Site VPN}{25}{}%
-\contentsline {subsection}{\numberline {3.3.11}VRRP in Core Switches}{27}{}%
-\contentsline {subsection}{\numberline {3.3.12}Internal Servers}{27}{}%
-\contentsline {subsubsection}{DNS}{27}{}%
-\contentsline {subsubsection}{DHCP}{28}{}%
-\contentsline {subsubsection}{TFTP Servers}{29}{}%
-\contentsline {subsubsection}{Storage}{29}{}%
-\contentsline {subsection}{\numberline {3.3.13}Fortinet services}{29}{}%
-\contentsline {subsubsection}{Fortilink}{29}{}%
-\contentsline {subsubsection}{Web Filter \& DNS Filter}{30}{}%
-\contentsline {subsubsection}{Application Control}{30}{}%
-\contentsline {subsubsection}{Intrusion Prevention System (IPS)}{31}{}%
-\contentsline {subsubsection}{Antivirus}{31}{}%
-\contentsline {subsubsection}{SSL Inspection}{32}{}%
-\contentsline {subsubsection}{Traffic Shaping}{32}{}%
-\contentsline {subsection}{\numberline {3.3.14}Exam Configuration}{33}{}%
-\contentsline {subsection}{\numberline {3.3.15}Examination VLAN Implementation}{33}{}%
-\contentsline {subsubsection}{Role-Based Access Control}{33}{}%
-\contentsline {subsubsection}{Security Policies}{34}{}%
-\contentsline {subsubsection}{Monitoring and Reporting}{34}{}%
-\contentsline {subsubsection}{Testing and Validation}{34}{}%
-\contentsline {section}{\numberline {3.4}Legal Aspects}{35}{}%
-\contentsline {section}{\numberline {3.5}Design Constraints}{35}{}%
-\contentsline {section}{\numberline {3.6}Design Standards}{35}{}%
-\contentsline {section}{\numberline {3.7}Design Alternatives}{36}{}%
-\contentsline {section}{\numberline {3.8}Design Considerations Table}{37}{}%
-\contentsline {chapter}{\numberline {4}Implementation}{38}{}%
-\contentsline {section}{\numberline {4.1}Methods and Procedures}{38}{}%
-\contentsline {subsection}{\numberline {4.1.1}FortiGate Configuration}{38}{}%
-\contentsline {subsubsection}{FortiGate Configuration Steps}{38}{}%
-\contentsline {subsection}{\numberline {4.1.2}Automation}{49}{}%
-\contentsline {chapter}{\numberline {5}Results and Discussion}{50}{}%
-\contentsline {chapter}{\numberline {6}Economical, Ethic, and Contemporary Issues}{51}{}%
-\contentsline {section}{\numberline {6.1}Preliminary Cost Estimation}{51}{}%
-\contentsline {section}{\numberline {6.2}Relevant Codes of Ethics and Moral Frameworks}{51}{}%
-\contentsline {section}{\numberline {6.3}Relevant Environmental Considerations}{51}{}%
-\contentsline {section}{\numberline {6.4}Relevance to Jordan and Region}{51}{}%
-\contentsline {chapter}{\numberline {7}Project Management}{52}{}%
-\contentsline {section}{\numberline {7.1}Schedule and Time Management}{52}{}%
-\contentsline {section}{\numberline {7.2}Resource and Cost Management}{52}{}%
-\contentsline {section}{\numberline {7.3}Quality Management}{52}{}%
-\contentsline {section}{\numberline {7.4}Risk Management}{52}{}%
-\contentsline {section}{\numberline {7.5}Project Procurement}{53}{}%
-\contentsline {chapter}{\numberline {8}Conclusion and Future Work}{54}{}%
-\contentsline {chapter}{\numberline {A}User Manual}{59}{}%
+\contentsline {section}{\numberline {1.6}High-Level Design}{5}{}%
+\contentsline {section}{\numberline {1.7}Report structure}{5}{}%
+\contentsline {chapter}{\numberline {2}Background}{7}{}%
+\contentsline {section}{\numberline {2.1}Overview and context}{7}{}%
+\contentsline {section}{\numberline {2.2}Target Market - Yarmouk University}{7}{}%
+\contentsline {section}{\numberline {2.3}Potential Ethical and Environmental Issues}{8}{}%
+\contentsline {section}{\numberline {2.4}Other Approaches}{9}{}%
+\contentsline {chapter}{\numberline {3}Design}{10}{}%
+\contentsline {section}{\numberline {3.1}Design Overview}{10}{}%
+\contentsline {subsection}{\numberline {3.1.1}Design Description}{10}{}%
+\contentsline {subsection}{\numberline {3.1.2}Detailed figure}{10}{}%
+\contentsline {section}{\numberline {3.2}Design Details}{13}{}%
+\contentsline {subsection}{\numberline {3.2.1}Design Specifications}{13}{}%
+\contentsline {section}{\numberline {3.3}Design Process}{14}{}%
+\contentsline {subsection}{\numberline {3.3.1}Hierarchical Networking Design}{14}{}%
+\contentsline {subsection}{\numberline {3.3.2}FortiGate, a Next-Generation Firewall}{14}{}%
+\contentsline {subsubsection}{Firewall vs Router}{14}{}%
+\contentsline {subsubsection}{Legacy vs Next-Generation Firewalls}{15}{}%
+\contentsline {subsection}{\numberline {3.3.3}Switches}{16}{}%
+\contentsline {subsection}{\numberline {3.3.4}VLANs}{17}{}%
+\contentsline {subsection}{\numberline {3.3.5}Wireless Access Points}{18}{}%
+\contentsline {subsection}{\numberline {3.3.6}Devices used}{19}{}%
+\contentsline {subsubsection}{FortiGate 1800F}{19}{}%
+\contentsline {subsubsection}{FortiSwitch 1048E}{20}{}%
+\contentsline {subsubsection}{FortiSwitch 524D}{21}{}%
+\contentsline {subsubsection}{FortiSwitch 424D}{22}{}%
+\contentsline {subsubsection}{FortiGate 600F}{22}{}%
+\contentsline {subsubsection}{FortiAP 431F}{23}{}%
+\contentsline {subsubsection}{FortiAP 432F}{24}{}%
+\contentsline {subsection}{\numberline {3.3.7}NATting}{25}{}%
+\contentsline {subsection}{\numberline {3.3.8}SD-WAN \& Link Monitoring}{26}{}%
+\contentsline {subsection}{\numberline {3.3.9}High Availability (HA)}{27}{}%
+\contentsline {subsection}{\numberline {3.3.10}DMZ}{29}{}%
+\contentsline {subsection}{\numberline {3.3.11}Site-to-Site VPN}{29}{}%
+\contentsline {subsection}{\numberline {3.3.12}VRRP in Core Switches}{31}{}%
+\contentsline {subsection}{\numberline {3.3.13}Internal Servers}{32}{}%
+\contentsline {subsubsection}{DNS}{32}{}%
+\contentsline {subsubsection}{DHCP}{33}{}%
+\contentsline {subsubsection}{TFTP Servers}{33}{}%
+\contentsline {subsubsection}{Storage}{33}{}%
+\contentsline {subsection}{\numberline {3.3.14}Fortinet services}{34}{}%
+\contentsline {subsubsection}{Fortilink}{34}{}%
+\contentsline {subsubsection}{Web Filter \& DNS Filter}{34}{}%
+\contentsline {subsubsection}{Application Control}{35}{}%
+\contentsline {subsubsection}{Intrusion Prevention System (IPS)}{35}{}%
+\contentsline {subsubsection}{Antivirus}{36}{}%
+\contentsline {subsubsection}{SSL Inspection}{36}{}%
+\contentsline {subsubsection}{Traffic Shaping}{37}{}%
+\contentsline {subsection}{\numberline {3.3.15}Exam Configuration}{37}{}%
+\contentsline {subsubsection}{Examination VLAN Implementation}{37}{}%
+\contentsline {subsubsection}{Role-Based Access Control}{38}{}%
+\contentsline {subsubsection}{Security Policies}{38}{}%
+\contentsline {subsubsection}{Monitoring and Reporting}{38}{}%
+\contentsline {subsubsection}{Testing and Validation}{39}{}%
+\contentsline {section}{\numberline {3.4}Legal Aspects}{39}{}%
+\contentsline {section}{\numberline {3.5}Design Constraints}{40}{}%
+\contentsline {section}{\numberline {3.6}Design Standards}{40}{}%
+\contentsline {section}{\numberline {3.7}Design Alternatives}{40}{}%
+\contentsline {section}{\numberline {3.8}Design Considerations Table}{42}{}%
+\contentsline {chapter}{\numberline {4}Implementation}{43}{}%
+\contentsline {section}{\numberline {4.1}Methods and Procedures}{43}{}%
+\contentsline {subsection}{\numberline {4.1.1}FortiGate Configuration}{43}{}%
+\contentsline {subsubsection}{FortiGate Configuration Steps}{43}{}%
+\contentsline {subsection}{\numberline {4.1.2}Automation}{54}{}%
+\contentsline {section}{\numberline {4.2}Infrastructure}{56}{}%
+\contentsline {section}{\numberline {4.3}Trade-offs}{57}{}%
+\contentsline {section}{\numberline {4.4}Assumptions and Dependencies}{57}{}%
+\contentsline {chapter}{\numberline {5}Results and Discussion}{59}{}%
+\contentsline {section}{\numberline {5.1}Results}{59}{}%
+\contentsline {section}{\numberline {5.2}Strengths and Weaknesses}{61}{}%
+\contentsline {subsection}{\numberline {5.2.1}Strengths}{61}{}%
+\contentsline {subsection}{\numberline {5.2.2}Weaknesses}{62}{}%
+\contentsline {chapter}{\numberline {6}Economical, Ethic, and Contemporary Issues}{63}{}%
+\contentsline {section}{\numberline {6.1}Preliminary Cost Estimation}{63}{}%
+\contentsline {subsubsection}{Comparison with Cisco Devices}{64}{}%
+\contentsline {section}{\numberline {6.2}Relevant Codes of Ethics and Moral Frameworks}{64}{}%
+\contentsline {section}{\numberline {6.3}Relevant Environmental Considerations}{65}{}%
+\contentsline {section}{\numberline {6.4}Relevance to Jordan and Region}{66}{}%
+\contentsline {chapter}{\numberline {7}Project Management}{67}{}%
+\contentsline {section}{\numberline {7.1}Schedule and Time Management}{67}{}%
+\contentsline {section}{\numberline {7.2}Resource and Cost Management}{67}{}%
+\contentsline {section}{\numberline {7.3}Quality Management}{67}{}%
+\contentsline {section}{\numberline {7.4}Risk Management}{67}{}%
+\contentsline {section}{\numberline {7.5}Project Procurement}{68}{}%
+\contentsline {chapter}{\numberline {8}Conclusion and Future Work}{69}{}%
+\contentsline {section}{\numberline {8.1}Summary}{69}{}%
+\contentsline {section}{\numberline {8.2}Future Work}{69}{}%
+\contentsline {section}{\numberline {8.3}Lessons Learned}{70}{}%
