@@ -1,14 +1,15 @@
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {3.1}{\ignorespaces Router vs Firewall}}{17}{}%
-\contentsline {table}{\numberline {3.2}{\ignorespaces Legacy vs Next-Generation Firewalls}}{17}{}%
-\contentsline {table}{\numberline {3.3}{\ignorespaces Comparison of SSL VPN and IPsec VPN}}{26}{}%
-\contentsline {table}{\numberline {3.4}{\ignorespaces Design Considerations}}{37}{}%
+\contentsline {table}{\numberline {3.1}{\ignorespaces Router vs Firewall}}{15}{}%
+\contentsline {table}{\numberline {3.2}{\ignorespaces Legacy vs Next-Generation Firewalls}}{15}{}%
+\contentsline {table}{\numberline {3.3}{\ignorespaces Comparison of SSL VPN and IPsec VPN}}{31}{}%
+\contentsline {table}{\numberline {3.4}{\ignorespaces Design Considerations}}{42}{}%
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {4.1}{\ignorespaces Bridge Mode vs Tunnel Mode}}{47}{}%
+\contentsline {table}{\numberline {4.1}{\ignorespaces Bridge Mode vs Tunnel Mode}}{53}{}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\addvspace {10\p@ }
+\contentsline {table}{\numberline {6.1}{\ignorespaces Preliminary Cost Estimation}}{63}{}%
+\contentsline {table}{\numberline {6.2}{\ignorespaces Preliminary Cost Estimation for Cisco Devices}}{64}{}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }

@@ -14,7 +14,7 @@
 \usepackage{pdfpages}
 \usepackage{array}
 \usepackage{caption}
-
+\usepackage{lmodern}
 
 \makeatletter
 \patchcmd{\@citex}{\hskip\@citepunct}{\hskip\@citepunct\footnotesize}{}{}
@@ -99,11 +99,9 @@
 % Declaration Page
 \pagenumbering{roman}
 \newpage
-\section*{Students' Property Right Declaration and Anti-Plagiarism Statement}
+\section*{Students' Property Right Declaration \& Anti-Plagiarism Statement}
 
-We hereby declare that the work in this graduation project at Yarmouk University is our own except for quotations and summaries which have been duly acknowledged. This work has not been accepted for any degree and is not concurrently submitted for award of other degrees. It is the sole property of Yarmouk University and it is protected under the intellectual property right laws and conventions.
-We hereby declare that this report is our own work except from properly referenced quotations and contains no plagiarism.
-We have read and understood the school's rules on assessment offenses, which are available at Yarmouk University Handbook. \\
+We hereby declare that the work in this graduation project at Yarmouk University is our own except for quotations and summaries which have been duly acknowledged. This work has not been accepted for any degree and is not concurrently submitted for award of other degrees. It is the sole property of Yarmouk University and it is protected under the intellectual property right laws and conventions. We hereby declare that this report is our own work except from properly referenced quotations and contains no plagiarism. We have read and understood the school's rules on assessment offenses, which are available at Yarmouk University Handbook.
 \begin{center}
 \vspace{1cm}
 Name: Omar B. Talafhah \hspace{3cm} Signature: 
@@ -125,195 +123,63 @@ Name: Zaid F. Salameh  \hspace{3.3cm} Signature:
 % Chapters
 \newpage
 \chapter*{Abstract}
-Yarmouk University, like many other universities, 
-has a large campus with many buildings and facilities. 
-The university's network infrastructure is sort of outdated and does not provide 
-adequate coverage for all areas, and connecting to the web servers in the university from outside can 
-be a headache when more people are trying to access them.
-This project aims to enhance the network connectivity for Yarmouk University 
-by using Fortinet products. 
+Yarmouk University's extensive campus suffers from outdated network infrastructure, leading to inadequate coverage and connectivity issues, particularly for external access to web servers and Wi-Fi connectivity. This project aims to modernize the university's network using \textbf{Fortinet} products, focusing on improving security, redundancy, and overall network performance. The project involves implementing a hierarchical network design for the main and South buildings, connected via a Site-to-Site VPN for secure communication. Additionally, a Demilitarized Zone (DMZ) will be established to protect the university’s data center, and a Web Application Firewall will safeguard web servers. Key features include SD-WAN for load balancing, High Availability (HA) for redundancy, and advanced traffic management through Web Filtering and Application Control. The project spans several months, culminating in a robust, secure, and easily manageable network solution for the university.
 
-\textbf{Fortinet} is a network security company that provides relatively cheap, modern, and easy-to-use and maintain products that can also easily provide a great level of network security through different measures.
-Fortinet relies heavily on the use of \textbf{FortiGate} devices, which are firewalls that can be used to secure the network, as well as managing any Fortinet device connected to it.
-This project will implement a Hierarchical networking design for the main university building and another one for the South building, and connect them using \textbf{Site-To-Site VPN} to provide a secure connection between the two buildings.
-This project will also include a protection layer for the data center in the university using \textbf{DMZ} where the DMZ will include web servers and any service that is ok to be public.
-The project will also implement a Web Application Firewall to protect the web servers in the university from any attacks.
-One of the main focuses of this project is to provide redundancy and load balancing for the network using 
-various technologies like \textbf{SD-WAN} and link monitoring for Internet connectivity and \textbf{High Availability (HA)} for FortiGate redundancy.
-FortiGates will also provide services like \textbf{Web Filtering} and \textbf{Application Control} to control the network traffic and prevent any unwanted traffic from entering the network.
-We will be using various Fortinet products like FortisSwitches, FortiAPs, FortiAnalyzer, and FortiManager to provide a complete solution for the university's network infrastructure.
+\textbf{Keywords}—Network infrastructure, Fortinet, Security, VPN, Redundancy
 
 \addcontentsline{toc}{chapter}{Abstract}
 \clearpage
 \pagenumbering{arabic}
 \chapter{Introduction}
 \section{Problem Statement and Purpose}
-This Project aims to enhance university networking by making it more secure, 
-reliable, easier and cheaper to obtain and maintain, and provide a better user experience for the students and staff.
+This project aims to enhance the university's networking by making it more secure, reliable, and cost-effective, while also providing easier maintenance and an improved user experience for students and staff.
 
 \section{Background}
-Yarmouk University holds more than 41,000 students and has many schools and departments \cite{YU} , yet, the network infrastructure is outdated and does not provide adequate coverage for all areas, and connecting to the web servers in the university from outside can be a nightmare during peak times. For example, system responsiveness during registration on the \date{19th of May, 2024} was not that great, especially that only those who are expected to graduate can register.
-\section{Aims and objectives}
-The main aim of this project is to enhance the network connectivity for Yarmouk University by using Fortinet products. The objectives of this project are:
+Yarmouk University accommodates over 41,000 students across numerous schools and departments \cite{YU}. However, the network infrastructure is outdated, resulting in inadequate coverage in certain areas. Additionally, connecting to the university's web servers from outside can be problematic, especially during peak times. For instance, system responsiveness during registration on \date{19th of May, 2024} was notably poor, even though only those expected to graduate were allowed to register.
+
+\section{Aims and Objectives}
+The primary aim of this project is to enhance network connectivity at Yarmouk University through the deployment of Fortinet products. The specific objectives are as follows:
 \begin{itemize}
-    \item Implement a Hierarchical networking design for the main university campus and another one for the South campus.
-    \item Connect the two campuses using Site-To-Site VPN to provide a secure connection between the two campuses.
-    \item Implement a protection layer for the data center in the university using demilitarized zone (DMZ).
-    \item Implement a Web Application Firewall to protect the web servers in the university from any attacks.
-    \item Provide redundancy and load balancing for the network using various technologies like software-defined wide area network (SD-WAN) and link monitoring for Internet connectivity.
+    \item Implement a hierarchical networking design for both the main university campus and the South campus.
+    \item Establish a secure connection between the two campuses using Site-To-Site VPN.
+    \item Introduce a protection layer for the university's data center by implementing a demilitarized zone (DMZ).
+    \item Deploy a Web Application Firewall to safeguard the university's web servers against attacks.
+    \item Ensure network redundancy and load balancing through technologies such as software-defined wide area network (SD-WAN) and link monitoring for Internet connectivity.
     \item Provide High Availability (HA) for FortiGate redundancy.
-    \item Provide services like Web Filtering and Application Control to control the network traffic and prevent any unwanted traffic from entering the network.
-    \item Use various Fortinet products like FortiSwitches, FortiAPs, FortiAnalyzer, and FortiManager to provide a complete solution for the university's network infrastructure.
+    \item Implement services like Web Filtering and Application Control to manage network traffic and block unwanted traffic.
+    \item Utilize various Fortinet products, including FortiSwitches, FortiAPs, FortiAnalyzer, and FortiManager, to deliver a comprehensive solution for the university's network infrastructure.
 \end{itemize}
 
-\section{Our solution}
+\section{Our Solution}
 \begin{figure}[h]
     \centering
-    \includegraphics[width=0.8\textwidth]{images/fortinet.png}
+    \includegraphics[width=0.9\textwidth]{images/fortinet.png}
     \caption{Fortinet Logo}
     \label{fig:fortinet logo}
 \end{figure}
-Fortinet is a network security company, based in California, USA. It provides relatively cheap, modern, and easy-to-use and maintain products that can also easily provide a great level of network security through different measures. Fortinet relies heavily on the use of FortiGate devices, which are firewalls that can be used to secure the network, as well as managing any Fortinet device connected to it. Fortinet also provides other products like FortiSwitches, FortiAPs, FortiAnalyzer, and FortiManager to provide a complete solution for the network infrastructure \cite{FortinetAbtus}. 
-We suggest converting to Fortinet products for its great security and ease of use and maintenance, as well as it being cheaper relative to Cisco and other competitors. \cite{FNvsCISCO}
-Our solution will include a full topology for the main university and the south campus, as well as the secure connection between them. It will also include many solutions that will provide redundancy and load balancing for the network.
-Our solution will also include a protection layer for the data center in the university using DMZ, and a Web Application Firewall to protect the web servers in the university from any attack that may occur.
+
+Fortinet is a network security company based in California, USA. It offers modern, cost-effective, and user-friendly products that deliver robust network security through various measures. Central to Fortinet’s offerings are the \textbf{FortiGate} devices, which serve as firewalls to secure the network while also managing any connected Fortinet devices. Additionally, Fortinet provides other products such as \textbf{FortiSwitches}, \textbf{FortiAPs}, \textbf{FortiAnalyzer}, and \textbf{FortiManager}, ensuring a comprehensive solution for network infrastructure \cite{FortinetAbtus}.
+
+We propose adopting Fortinet products due to their superior security, ease of use and maintenance, and cost-effectiveness compared to Cisco and other competitors \cite{FNvsCISCO}. Our solution will encompass a complete topology for both the main university and the South campus, including the secure connection between them. It will also incorporate several solutions designed to provide network redundancy and load balancing.
+
+Furthermore, our solution includes a protection layer for the university’s data center using a Demilitarized Zone (DMZ), along with a Web Application Firewall to shield the university’s web servers from potential attacks.
 
 \section{Key Technical Details}
-\subsection{Network Topology}
-\begin{itemize}
-    \item Hierarchical design for main and south campuses.
-    \item Core, distribution, and access layers.
-    \item Layout of FortiGate firewalls, FortiSwitches, and FortiAPs.
-\end{itemize}
+The network topology for Yarmouk University will follow a hierarchical design encompassing both the main and South campuses, structured with core, distribution, and access layers to ensure efficient performance. FortiGate firewalls will be deployed to secure the network by configuring firewall rules, NAT, and security policies, while also ensuring redundancy through High Availability (HA) setups. A Site-to-Site VPN will be established to provide a secure connection between the two campuses, utilizing encryption protocols and VPN policies. The university's data center will be safeguarded by placing public services within a Demilitarized Zone (DMZ) and enforcing strict access control policies. To further protect the university’s web servers, a Web Application Firewall (WAF) will be configured to block potential attacks. Additionally, Software-Defined WAN (SD-WAN) technology will be implemented to optimize traffic and enhance redundancy through link monitoring and failover mechanisms. Network security will be bolstered by services such as Web Filtering to block inappropriate or malicious websites, Application Control to manage network applications, and an Intrusion Prevention System (IPS) to detect and prevent potential intrusions. Network management and monitoring will be centralized using FortiAnalyzer for logging and reporting, and FortiManager to oversee all Fortinet devices. The wireless network will be expanded with FortiAPs to provide comprehensive campus coverage, with SSIDs, security settings, and VLANs configured for optimal wireless access. Load balancing will be employed to distribute traffic across critical resources, and redundant links and devices will be implemented to ensure high availability. Network Access Control (NAC) will regulate device access with stringent authentication and authorization policies. Finally, the network will be designed with scalability in mind, allowing for future expansions and integration of emerging technologies.
 
-\subsection{FortiGate Firewalls}
-\begin{itemize}
-    \item Secure the network.
-    \item Configure firewall rules, NAT, and security policies.
-    \item High Availability (HA) for redundancy.
-\end{itemize}
 
-\subsection{Site-to-Site VPN}
-\begin{itemize}
-    \item Secure connection between campuses.
-    \item Encryption protocols and VPN policies.
-\end{itemize}
-
-\subsection{Demilitarized Zone (DMZ)}
-\begin{itemize}
-    \item Protect the data center.
-    \item Public services in the DMZ.
-    \item Access control policies.
-\end{itemize}
-
-\subsection{Web Application Firewall (WAF)}
-\begin{itemize}
-    \item Protect web servers from attacks.
-    \item Configure WAF rules and profiles.
-\end{itemize}
-
-\subsection{Software-Defined WAN (SD-WAN)}
-\begin{itemize}
-    \item Provide redundancy and optimize traffic.
-    \item Link monitoring and failover.
-\end{itemize}
-
-\subsection{Network Security Services}
-\begin{itemize}
-    \item \textbf{Web Filtering}: Block inappropriate/malicious websites.
-    \item \textbf{Application Control}: Manage network applications.
-    \item \textbf{Intrusion Prevention System (IPS)}: Detect and prevent intrusions.
-\end{itemize}
-
-\subsection{Network Management and Monitoring}
-\begin{itemize}
-    \item FortiAnalyzer for logging and reporting.
-    \item FortiManager for centralized management.
-    \item Network monitoring tools.
-\end{itemize}
-
-\subsection{Wireless Network}
-\begin{itemize}
-    \item FortiAPs for campus coverage.
-    \item Configure SSIDs, security settings, and VLANs.
-\end{itemize}
-
-\subsection{Load Balancing and Redundancy}
-\begin{itemize}
-    \item Load balancing for critical resources.
-    \item Redundant links and devices for availability.
-\end{itemize}
-
-\subsection{Network Access Control (NAC)}
-\begin{itemize}
-    \item Control device access to the network.
-    \item Authentication and authorization policies.
-\end{itemize}
-
-\subsection{Scalability and Future-proofing}
-\begin{itemize}
-    \item Future network expansion considerations.
-    \item Flexible design for new technologies.
-\end{itemize}
-
-\subsection{Example Configuration Details}
-
-\subsubsection{FortiGate Firewall Configuration Example} 
-\begin{verbatim}
-config system interface
-    edit "port1"
-        set mode static
-        set ip 192.168.1.1/24
-    next
-end
-
-config firewall policy
-    edit 1
-        set srcintf "port1"
-        set dstintf "port2"
-        set srcaddr "all"
-        set dstaddr "all"
-        set action accept
-        set schedule "always"
-        set service "ALL"
-        set logtraffic all
-    next
-end
-\end{verbatim}
-
-\subsubsection{Site-to-Site VPN Configuration Example}
-\begin{verbatim}
-config vpn ipsec phase1-interface
-    edit "VPN-to-SouthCampus"
-        set interface "port1"
-        set peertype any
-        set net-device enable
-        set proposal aes256-sha256
-        set remote-gw 192.168.2.1
-        set psksecret your_psk_secret
-    next
-end
-
-config vpn ipsec phase2-interface
-    edit "VPN-to-SouthCampus"
-        set phase1name "VPN-to-SouthCampus"
-        set proposal aes256-sha256
-        set src-subnet 10.1.0.0 255.255.255.0
-        set dst-subnet 10.2.0.0 255.255.255.0
-    next
-end
-\end{verbatim}
 
 
 \newpage
 \section{High-Level Design}
 \begin{figure}[h]
     \centering
-    \includegraphics[width=0.8\textwidth]{images/HLfig.png}
+    \includegraphics[width=0.9\textwidth]{images/HLfig.png}
     \caption{High Level Design}
     \label{fig:High Level Design}
 \end{figure}
 
+%TODO: 1.7	A list of contributions with short descriptions that you can claim from your work.
 
 \section{Report structure}
 The report is structured as follows:
@@ -337,15 +203,17 @@ The report is structured as follows:
 \section{Overview and context}
 
 Yarmouk University has outdated network infrastructure that struggles to serve the large student body and academic and technical staff over two large campuses. The network lacks redundancy and load balancing. The current network infrastructure is not suitable for the size and complexity of the university. In our modern interconnected world, a reliable and secure network is essential for the university to function effectively; a wide-spanning WiFi network is vital for students and staff to access the internet and university resources. Additionally, computer labs need a dependable backbone to function properly.
+
+%TODO
 \section{Target Market - Yarmouk University}
-Yarmouk University is a public university in Jordan, located in Irbid. It was established in 1976 and has grown to become one of the largest universities in Jordan. The university offers a wide range of undergraduate and postgraduate programs in various fields, including engineering, science, arts, and humanities. Yarmouk University has a large student body, with over 41,000 students enrolled in various programs. The university has multiple campuses, including the main campus and the south campus, which are located in different parts of Irbid. The university has a diverse student population, with students from different backgrounds and nationalities. The university is known for its high-quality education and research programs, and it has a strong reputation in the region. Yarmouk University is committed to providing its students with a supportive and inclusive learning environment, and it is constantly striving to improve its facilities and services to meet the needs of its students and staff. \cite{YU}
+Yarmouk University is a public university in Jordan, located in Irbid. It was established in 1976 and has grown to become one of the largest universities in Jordan. The university offers a wide range of undergraduate and postgraduate programs in various fields, including engineering, science, arts, and humanities. Yarmouk University has a large student body, with over 41,000 students enrolled in various programs. The university has multiple campuses, including the main campus and the south campus, which are separated. The university has a diverse student population, with students from different backgrounds and nationalities. The university is known for its high-quality education and research programs, and it has a strong reputation in the region. Yarmouk University is committed to providing its students with a supportive and inclusive learning environment, and it is constantly striving to improve its facilities and services to meet the needs of its students and staff. \cite{YU}
 
 \section{Potential Ethical and Environmental Issues}
 Yarmouk University use solar energy for its power needs, and the network infrastructure is not energy-intensive. The project will not have a significant environmental impact. The project will not have any ethical issues, as it aims to improve the network infrastructure for the benefit of the university community \cite{Solar}. Figure \ref{fig:YUMap} shows that Yarmouk University installed solar panels across the campus. 
 %%Picture from Google maps%%
 \begin{figure}[h]
     \centering
-    \includegraphics[width=0.8\textwidth]{images/Maps.png}
+    \includegraphics[width=0.9\textwidth]{images/Maps.png}
     \caption{Solar Panels at Yarmouk University as seen on Google Maps}
     \label{fig:YUMap}
 \end{figure}
@@ -403,19 +271,19 @@ Figures \ref{fig:legacyFW} and \ref{fig:NGFW} show an example of both a legacy f
 
 \begin{figure}[h]
     \centering
-    \includegraphics[width=0.8\textwidth]{images/CiscoFW.jpg}
+    \includegraphics[width=0.9\textwidth]{images/CiscoFW.jpg}
     \caption{Legacy Firewall from CISCO \cite{CFWIMG}}
     \label{fig:legacyFW}
 \end{figure}
 
 \begin{figure}[h]
     \centering
-    \includegraphics[width=0.8\textwidth]{images/FortiGate.png}
+    \includegraphics[width=0.9\textwidth]{images/FortiGate.png}
     \caption{Next-Generation Firewall from Fortinet \cite{FNFWIMG}}
     \label{fig:NGFW}
 \end{figure}
 
-%table
+
 \begin{table}[h]
     \centering
     \begin{tabular}{|c|c|c|}
@@ -436,7 +304,7 @@ Figures \ref{fig:legacyFW} and \ref{fig:NGFW} show an example of both a legacy f
 Next-generation firewalls (NGFWs), particularly FortiGate devices, emphasize the importance of comprehensive policy management to enhance security. In FortiGate NGFWs, virtually all configurations, including routing and advanced security features, are implemented through security policies. This approach centralizes control, allowing administrators to define, enforce, and monitor rules within a single, cohesive framework. By managing routing within policies, FortiGate ensures that traffic is scrutinized and controlled based on security parameters before it is allowed to proceed, reducing the risk of unauthorized access and potential breaches. This method of embedding most functionalities within a policy framework enhances security by maintaining consistent and granular control over network traffic, ensuring that all actions align with the organization's security posture and compliance requirements \cite{Policies}. Figure \ref{fig:FortiGatePolicy} shows an example of FortiGate Policy Management page on the FortiOS configuration page.
 \begin{figure}[h]
     \centering
-    \includegraphics[width=0.8\textwidth]{images/Policy.png}
+    \includegraphics[width=0.9\textwidth]{images/Policy.png}
     \caption{FortiGate Policy Management}
     \label{fig:FortiGatePolicy}
 \end{figure}
@@ -446,7 +314,7 @@ Next-generation firewalls (NGFWs), particularly FortiGate devices, emphasize the
 Switches are devices that connect devices together in a network, they operate at either layer 2 or layer 3 of the OSI model, and they use MAC addresses to determine where to send packets. Layer 2 switches are used to connect devices together in a network, while Layer 3 can switch between different VLANs. Layer 3 switches can also perform routing functions, and they are used to connect different VLANs together. Switches are used to provide high-speed connectivity between devices in a network and to reduce network congestion. They are used to create a network that is fast, reliable, and secure. This project will utilize the use of layer 2 switching services as any routing must be done at the firewall to ensure security \cite{switch}. Figure \ref{fig:FortiSwitch} shows an example of a FortiSwitch device from Fortinet.
 \begin{figure}[h]
     \centering
-    \includegraphics[width=0.8\textwidth]{images/FortiSwitch.png}
+    \includegraphics[width=0.9\textwidth]{images/FortiSwitch.png}
     \caption{FortiSwitch from Fortinet \cite{FSIMG}}
     \label{fig:FortiSwitch}
 \end{figure} 
@@ -464,17 +332,87 @@ Wireless Access Points (WAPs) are devices that allow devices to connect to a net
 Figure \ref{fig:FortiAP} shows an example of a FortiAP device from Fortinet. 
 \begin{figure}[h]
     \centering
-    \includegraphics[width=0.8\textwidth]{images/AP.png}
+    \includegraphics[width=0.9\textwidth]{images/AP.png}
     \caption{FortiAP from Fortinet \cite{FAPIMG}}
     \label{fig:FortiAP}
 \end{figure}
+
+\subsection{Devices used}
+%what devices are used in the network, how they are used, and how they are connected
+\subsubsection{FortiGate 1800F}
+The FortiGate 1800F is a next-generation firewall that provides advanced security features to protect the network from cyber threats. The FortiGate 1800F is designed to provide high-performance security for large enterprises and service providers. It offers advanced security features such as intrusion prevention, web filtering, and application control to protect the network from cyber threats. The FortiGate 1800F also provides high availability and load balancing features to ensure that the network is always available and that traffic is distributed evenly across multiple devices. The FortiGate 1800F is connected to the core switches in the network and provides security services for the entire network. Figure \ref{fig:1800F} shows an example of a FortiGate 1800F device from Fortinet.\cite{1800F}
+We will be using the FortiGate 1800F as the main firewall for the main campus. As it is a high-performance firewall that can handle the large amount of traffic that the university generates while being budget-friendly. We will be utilizing two FortiGate 1800F devices in a High Availability (HA)
+Active-Passive configuration to provide redundancy and ensure that the network is always available.
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=0.9\textwidth]{images/1800F.png}
+    \caption{FortiGate 1800F from Fortinet \cite{1800FIMG}}
+    \label{fig:1800F}
+\end{figure}
+
+\subsubsection{FortiSwitch 1048E}
+The FortiSwitch 1048E is a 48 port switch that provides high-speed connectivity between devices in a network. The FortiSwitch 1048E is designed to provide high-performance switching for large enterprises and service providers. It offers advanced features such as VLAN support, link aggregation, and quality of service to optimize network performance. The FortiSwitch 1048E is connected to the FortiGate firewalls and provides high-speed connectivity for devices in the network\cite{1048E}. Figure \ref{fig:1048E} shows an example of a FortiSwitch 1048E device from Fortinet. We will be using the FortiSwitch 1048E as distribution switches for the main campus. As it is a high-performance switch that can handle the large amount of traffic that the university generates while providing advanced features to optimize network performance. We will be utilizing eight FortiSwitch 1048E devices in a VRRP configuration to provide redundancy and load balancing for the network.
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=0.9\textwidth]{images/1048E.png}
+    \caption{FortiSwitch 1048E from Fortinet \cite{1048EIMG}}
+    \label{fig:1048E}
+\end{figure}
+
+
+\subsubsection{FortiSwitch 524D}
+The FortiSwitch 524D is a 24 port switch with SFP+ ports that provides high-speed connectivity between devices in a network. The FortiSwitch 524D is designed to provide high-performance switching for large enterprises and service providers. It offers advanced features such as VLAN support, link aggregation, and quality of service to optimize network performance. The FortiSwitch 524D is connected to the FortiGate firewalls and provides high-speed connectivity for devices in the network\cite{524D}. Figure \ref{fig:524D} shows an example of a FortiSwitch 524D device from Fortinet. We will be using the FortiSwitch 524D as the core switch for the main campus. As it is a high-performance switch that can handle the large amount of traffic that the university generates while providing advanced features to optimize network performance. We will be utilizing two FortiSwitch 524D devices in a VRRP configuration to provide redundancy and load balancing for the network.
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=0.9\textwidth]{images/524D.jpg}
+    \caption{FortiSwitch 524D from Fortinet \cite{524DIMG}}
+    \label{fig:524D}
+\end{figure}
+\newpage
+
+\subsubsection{FortiSwitch 424D}
+The FortiSwitch 424D is a 24 port switch with SFP+ ports that provides high-speed connectivity between devices in a network. The FortiSwitch 424D has FPOE+, which means that it can provide power to devices that are connected to it that might need it. The FortiSwitch 424D is designed to provide high-performance switching for large enterprises and service providers. It provides many of the switch features mentioned above. The FortiSwitch 424D will be used as edge switches. Figure \ref{fig:424D} shows an example of a FortiSwitch 424D device from Fortinet. We will need numerous FortiSwitch 424D devices, atleast 90 devices, to provide adequate connectivity to the end devices in the network as well as the access points.\cite{424D}
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=0.9\textwidth]{images/424D.png}
+    \caption{FortiSwitch 424D from Fortinet \cite{424D}}
+    \label{fig:424D}
+\end{figure}
+
+\subsubsection{FortiGate 600F}
+The FortiGate 600F is a next-generation firewall that provides advanced security features to protect the network from cyber threats. The FortiGate 600F is designed to provide good performance for medium sized institutions and companies. It offers advanced security features such as intrusion prevention, web filtering, and application control to protect the network from cyber threats. The FortiGate 600F also provides high availability and load balancing features to ensure that the network is always available and that traffic is distributed evenly across multiple devices. The FortiGate 600F is connected to the core switches in the network and provides security services for the entire network. Figure \ref{fig:600F} shows an example of a FortiGate 600F device from Fortinet\cite{600F}. We will be using the FortiGate 600F as the main firewall for the South campus. As the main campus is not too large to require a more powerful FortiGate, saving us some money. We will be utilizing two FortiGate 600F devices in a High Availability (HA) Active-Passive configuration to provide redundancy and ensure that the network is always available.
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=0.9\textwidth]{images/600F.png}
+    \caption{FortiGate 600F from Fortinet \cite{600FIMG}}
+    \label{fig:600F}
+\end{figure}
+
+\subsubsection{FortiAP 431F}
+The FortiAP 431F is an indoor wireless access point that provides high-speed WiFi coverage for devices in a network. The FortiAP 431F is designed to provide WiFi coverage for large rooms and corridors. It offers advanced features such as multiple SSIDs, VLAN support, and quality of service to optimize WiFi performance. The FortiAP 431F operates on both the 2.4GHz and 5GHz bands to provide high-speed WiFi coverage for devices in a network.\cite{FAPList} Figure \ref{fig:431F} shows an example of a FortiAP 431F device from Fortinet. We will be using the FortiAP 431F as indoor access points. We will be requiring a large number of FortiAP 431Fs, a rough estimate is 200 devices, to provide WiFi coverage for the main campus and the South campus. 
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=0.9\textwidth]{images/431F.png}
+    \caption{FortiAP 431F from Fortinet \cite{FAP431FIMG}}
+    \label{fig:431F}
+\end{figure}
+
+\subsubsection{FortiAP 432F}
+The FortiAP 432F is an outdoor wireless access point that provides high-speed WiFi coverage for devices in a network. The FortiAP 432F is designed to provide WiFi coverage for outdoor areas such as courtyards and parking lots. It offers advanced features such as multiple SSIDs, VLAN support, and quality of service to optimize WiFi performance. The FortiAP 432F operates on both the 2.4GHz and 5GHz bands to provide high-speed WiFi coverage for devices in a network.\cite{FAPList} Figure \ref{fig:432F} shows an example of a FortiAP 432F device from Fortinet. We will be using the FortiAP 432F as outdoor access points. We will be requiring a large number of FortiAP 432Fs, a rough estimate is 70 devices to provide WiFi coverage for the main campus and the South campus.
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=0.9\textwidth]{images/432F.png}
+    \caption{FortiAP 432F from Fortinet \cite{FAP432FIMG}}
+    \label{fig:432F}
+\end{figure}
+\newpage
 
 \subsection{NATting}
 %what is NATting, Natting types comparison, how it is used in the network
 Network Address Translation (NAT) is a process that allows devices on a private network to communicate with devices on a public network. NAT is used to translate the private IP addresses of devices on a private network to a public IP. NAT is used to conserve public IP addresses by allowing multiple devices on a private network to share a single public IP address. NAT is used to provide security by hiding the internal network structure from the outside world. There are three types of NAT: Static NAT, Dynamic NAT, and Port Address Translation (PAT). Static NAT maps a private IP address to a public IP address on a one-to-one basis. Dynamic NAT maps a private IP address to a public IP address from a pool of public IP addresses. PAT maps multiple private IP addresses to a single public IP address utilizing different port numbers. This project will use PAT to allow devices on the private network to communicate with the public network \cite{NATTing}. Figure \ref{fig:NAT} shows an example of NAT configuration on a FortiGate device.
 \begin{figure}[h]
     \centering
-    \includegraphics[width=0.8\textwidth]{images/nat.png}
+    \includegraphics[width=0.9\textwidth]{images/nat.png}
     \caption{FortiGate NAT Configuration \cite{NATIMG}}
     \label{fig:NAT}
 \end{figure}
@@ -488,7 +426,7 @@ Link monitoring is a feature that allows the network administrator to monitor th
 High Availability (HA) is a feature that allows the network administrator to ensure that the network is always available. HA can be used to provide redundancy for critical devices in the network, such as firewalls and switches. HA can be used to ensure that if one device fails, another device takes over automatically. This will provide a high level of availability for the network and ensure that users always have access to the resources they need. HA can also be used to provide load balancing for the network, so that traffic is distributed evenly across multiple devices. This will ensure that the network is always available and that users always have access to the resources they need. HA is used in conjunction with SD-WAN technology to provide redundancy and load balancing for the network. Figure \ref{fig:HA} shows an example of HA configuration on a FortiGate device.
 \begin{figure}[h]
     \centering
-    \includegraphics[width=0.5\textwidth]{images/HA.png}
+    \includegraphics[width=0.6\textwidth]{images/HA.png}
     \caption{FortiGate HA Configuration}
     \label{fig:HA}
 \end{figure}
@@ -545,7 +483,7 @@ Domain Name System (DNS) is a hierarchical decentralized naming system for compu
 Figure \ref{fig:DNS} shows an example of DNS configuration on a FortiGate device.
 \begin{figure}[h]
     \centering
-    \includegraphics[width=0.8\textwidth]{images/dns.png}
+    \includegraphics[width=0.9\textwidth]{images/dns.png}
     \caption{FortiGate DNS Configuration \cite{DNSIMG}}
     \label{fig:DNS}
 \end{figure}
@@ -586,7 +524,7 @@ There are two types of traffic shaping: Per-IP traffic shaping and Shared traffi
 \subsection{Exam Configuration}
 Fortinet devices features such as easy scripting, fortilink and being able to access all switches from one device could allow great ideas like this to be implemented.
 
-\subsection{Examination VLAN Implementation}
+\subsubsection{Examination VLAN Implementation}
 The Examination VLAN is a critical component designed to enhance security and manageability during university exams. This VLAN segregates exam-related network traffic from the university's main network, ensuring a controlled environment for exam takers. Below are the key steps and configurations for setting up and managing the Examination VLAN.
 \begin{itemize}
     \item Define the VLAN ID unique to the Examination VLAN.
@@ -630,11 +568,11 @@ This setup not only enhances the integrity and security of the examination proce
 
 %%%%%% end of new %%%%%%
 \section{Legal Aspects}
-% TODO: Talk about licensing in fortinet products, different types of licensing
 Fortinet products require licensing to enable certain features and services. The project will need to purchase the necessary licenses for the Fortinet devices to ensure that all security features, updates, and support services are available. The project will also need to comply with licensing agreements and terms of use for the Fortinet products to avoid any legal issues. The project will work with Fortinet representatives to ensure that all licensing requirements are met and that the network infrastructure is properly licensed and supported.
-This project will comply with all regulation and laws by the Jordanian government to ensure data security, privacy, and compliance with legal requirements. The project will also ensure that all network configurations and security policies adhere to industry best practices and standards to protect the university's network and data. The project will also follow Fortinet's guidelines and recommendations for configuring and managing Fortinet devices to ensure that the network infrastructure is secure, reliable, and efficient. 
-\section{Design Constraints}
+This project will comply with all regulation and laws by the Jordanian government to ensure data security, privacy, and compliance with legal requirements. The project will also ensure that all network configurations and security policies adhere to industry best practices and standards to protect the university's network and data. The project will also follow Fortinet's guidelines and recommendations for configuring and managing Fortinet devices to ensure that the network infrastructure is secure, reliable, and efficient.
 
+
+\section{Design Constraints}
 Yarmouk University is usually tight on money, so this project will try to be as cost-effective as possible. The project will also try to minimize downtime during the implementation phase to avoid disrupting the university's operations. Different models of switches and APs will be used to ensure minimum budget needed, for example, no need for high end switches for all layers, access layer switches can be a lower model than that of the core switches, and no need for high-end outdoor APs in a small room or building. Distribution of APs need to be done in a way to ensure coverage in all areas of the university, but still consider using the least number of APs possible. \cite{YUMoneyIssue}
 
 \section{Design Standards}
@@ -662,6 +600,8 @@ MPLS is a great solution for connecting multiple sites, but it is expensive and 
     \caption{Design Considerations}
     \label{tab:design_considerations}
 \end{table}
+
+
 \chapter{Implementation}
 \section{Methods and Procedures}
 First thing, after topology gets approved and an accurate devices list required is obtained, the devices will be ordered and delivered to the university, along with the licenses required. The FortiGates will be installed and configured first, then switches are connected and each deivce and port will be named through the FortiGate, then the FortiAPs will be installed and configured.
@@ -682,34 +622,34 @@ The FortiGates will be configured to provide security, routing, and VPN services
 We will first view the ports on the Fortigate, then setup the ports that will connect to the internet and any other ports needed. Figure \ref{fig:ports} and \ref{fig:portscfg} show an example of port configuration on a FortiGate device.
 \begin{figure}
     \centering
-    \includegraphics[width=0.8\textwidth]{images/Implementation/ports.png}
+    \includegraphics[width=0.9\textwidth]{images/Implementation/ports.png}
     \caption{FortiGate Ports Page}
     \label{fig:ports}
 \end{figure}
 \begin{figure}
     \centering
-    \includegraphics[width=0.8\textwidth]{images/Implementation/portconfig.png}
+    \includegraphics[width=0.9\textwidth]{images/Implementation/portconfig.png}
     \caption{FortiGate Port Configuration}
     \label{fig:portscfg}
 \end{figure}
 As we can see in the images, we can see the ports on the FortiGate, and we can configure the ports to be used for different purposes, such as WAN, LAN, DMZ, etc, as seen in \ref{fig:intrfsrole}.
 \begin{figure}
     \centering
-    \includegraphics[width=0.8\textwidth]{images/Implementation/intrfsrole.png}
+    \includegraphics[width=0.9\textwidth]{images/Implementation/intrfsrole.png}
     \caption{FortiGate Interface Role Configuration}
     \label{fig:intrfsrole}
 \end{figure}
 We also need to configure the DNS for the FortiGate, as shown in Figure \ref{fig:DNScfg}.
 \begin{figure}
     \centering
-    \includegraphics[width=0.8\textwidth]{images/Implementation/dns.png}
+    \includegraphics[width=0.9\textwidth]{images/Implementation/dns.png}
     \caption{FortiGate DNS Configuration}
     \label{fig:DNScfg}
 \end{figure}
 Then we go to add the routes based on what we need, as shown in Figure \ref{fig:routes}.
 \begin{figure}
     \centering
-    \includegraphics[width=0.8\textwidth]{images/Implementation/routes.png}
+    \includegraphics[width=0.9\textwidth]{images/Implementation/routes.png}
     \caption{FortiGate Routes Configuration}
     \label{fig:routes}
 \end{figure}
@@ -723,7 +663,7 @@ Then we configure the firewall policies, as shown in Figure \ref{fig:ippolicy}. 
 When adding a policy, as shown in Figure \ref{fig:ippolicyoptions}, we need to specify the source and destination interfaces, the source and destination addresses, the services, and the action to be taken, and whether this port will deal with NATing or not.
 \begin{figure}
     \centering
-    \includegraphics[width=0.8\textwidth]{images/Implementation/ippolicyoptions.png}
+    \includegraphics[width=0.9\textwidth]{images/Implementation/ippolicyoptions.png}
     \caption{FortiGate IP Policy Configuration Options}
     \label{fig:ippolicyoptions}
 \end{figure}
@@ -733,91 +673,91 @@ Next, we need to Application layer services (which require a license) such as We
 First, we start with Antivirus, as shown in Figure \ref{fig:antivirus}. We can configure the antivirus to what protocols to inspect, how should it handle mobile malware, and to determine which database to use for the antivirus detection.
 \begin{figure}
     \centering
-    \includegraphics[width=0.8\textwidth]{images/Implementation/av.png}
+    \includegraphics[width=0.9\textwidth]{images/Implementation/av.png}
     \caption{FortiGate Antivirus Configuration}
     \label{fig:antivirus}
 \end{figure}
 Next, we configure the Web Filtering, as shown in Figures \ref{fig:wf1}, \ref{fig:wf2}, \& \ref{fig:wf3}. We can configure the web filter to block certain categories of websites, or to allow only certain categories of websites, or to block certain websites, or to allow only certain websites, etc. We can also impose what limitations we want on a website, such as forcing safe search and limiting youtube access. We can also allow for logging all searches and websites visited by each user.
 \begin{figure}
     \centering
-    \includegraphics[width=0.8\textwidth]{images/Implementation/wf1.png}
+    \includegraphics[width=0.9\textwidth]{images/Implementation/wf1.png}
     \caption{FortiGate Web Filtering Configuration}
     \label{fig:wf1}
 \end{figure}
 \begin{figure}
     \centering
-    \includegraphics[width=0.8\textwidth]{images/Implementation/wf2.png}
+    \includegraphics[width=0.9\textwidth]{images/Implementation/wf2.png}
     \caption{FortiGate Web Filtering Configuration}
     \label{fig:wf2}
 \end{figure}
 \begin{figure}
     \centering
-    \includegraphics[width=0.8\textwidth]{images/Implementation/wf3.png}
+    \includegraphics[width=0.9\textwidth]{images/Implementation/wf3.png}
     \caption{FortiGate Web Filtering Configuration}
     \label{fig:wf3}
 \end{figure}
 Next, we configure the DNS Filtering, as shown in Figure \ref{fig:dnsf}. We can configure the DNS filter not only to block certain websites, but to redirect the user to a page that indicate that the website is blocked. We can also use dns filter to redirect the user from a website he wants to access to a more local or limited version of the website, in a university setting, we can redirect the user from youtube to the university's youtube channel, or from facebook to the university's facebook page, we can also redirect the user to a page that shows the university's rules and regulations, etc. DNS Filter could also be set to use the local IP address to access the website, wh9ich nwould increase dependency on the local network and reduce the load on the internet.
 \begin{figure}
     \centering
-    \includegraphics[width=0.8\textwidth]{images/Implementation/dnsf.png}
+    \includegraphics[width=0.9\textwidth]{images/Implementation/dnsf.png}
     \caption{FortiGate DNS Filtering Configuration}
     \label{fig:dnsf}
 \end{figure}
 Now, we configure the Application Control, as shown in Figure \ref{fig:ac}. We can configure the application control to block certain applications, or to allow only certain applications, or to mintor traffic related to certain applications. This can be catrgorized too like apps related to gaming, emails, cloud..etc.
 \begin{figure}
     \centering
-    \includegraphics[width=0.8\textwidth]{images/Implementation/ac.png}
+    \includegraphics[width=0.9\textwidth]{images/Implementation/ac.png}
     \caption{FortiGate Application Control Configuration}
     \label{fig:ac}
 \end{figure}
 Now, we can set up the site to site VPN between campuses. We can do this by going to the VPN section in the FortiGate, and then to the IPsec VPN section, and then to the Create New section, as shown in Figure \ref{fig:vpnsetup}. We choose to where we are connecting (whether it is Fortinet device or CISCO), and whether there should be NATting between the sites or not. We then set the IPs and the PSKs for the connection as shown in Figure \ref{fig:vpn2}.
 \begin{figure}
     \centering
-    \includegraphics[width=0.8\textwidth]{images/Implementation/vpnsetup.png}
+    \includegraphics[width=0.9\textwidth]{images/Implementation/vpnsetup.png}
     \caption{FortiGate VPN Setup}
     \label{fig:vpnsetup}
 \end{figure}
 \begin{figure}
     \centering
-    \includegraphics[width=0.8\textwidth]{images/Implementation/vpn2.png}
+    \includegraphics[width=0.9\textwidth]{images/Implementation/vpn2.png}
     \caption{FortiGate VPN Setup}
     \label{fig:vpn2}
 \end{figure}
 Now we can start adding our switches and APs and view and access them through our FortiGate as shown in figures \ref{fig:ap}, \ref{fig:fl}, and \ref{fig:flports1}. Topology can be seen in Figure \ref{fig:fltop}.
 \begin{figure}
     \centering
-    \includegraphics[width=0.8\textwidth]{images/Implementation/ap.png}
+    \includegraphics[width=0.9\textwidth]{images/Implementation/ap.png}
     \caption{FortiGate Access Points}
     \label{fig:ap}
 \end{figure}
 \begin{figure}
     \centering
-    \includegraphics[width=0.8\textwidth]{images/Implementation/fl.png}
+    \includegraphics[width=0.9\textwidth]{images/Implementation/fl.png}
     \caption{FortiGate FortiLink}
     \label{fig:fl}
 \end{figure}
 \begin{figure}
     \centering
-    \includegraphics[width=0.8\textwidth]{images/Implementation/flports1.png}
+    \includegraphics[width=0.9\textwidth]{images/Implementation/flports1.png}
     \caption{FortiGate FortiLink Ports}
     \label{fig:flports1}
 \end{figure}
 \begin{figure}
     \centering
-    \includegraphics[width=0.8\textwidth]{images/Implementation/fltop.png}
+    \includegraphics[width=0.9\textwidth]{images/Implementation/fltop.png}
     \caption{FortiGate Topology}
     \label{fig:fltop}
 \end{figure}
 Now, we add the required VLANs to our setup as shown in Figure \ref{fig:flvlans}. We can add the VLANs and assign them to the required ports in fortiswitches, as shown in figure \ref{fig:flports2} and then we can configure the VLANs to have the required IP addresses and subnets.
 \begin{figure}
     \centering
-    \includegraphics[width=0.8\textwidth]{images/Implementation/flvlans.png}
+    \includegraphics[width=0.9\textwidth]{images/Implementation/flvlans.png}
     \caption{FortiGate VLANs}
     \label{fig:flvlans}
 \end{figure}
 \begin{figure}
     \centering
-    \includegraphics[width=0.8\textwidth]{images/Implementation/flports2.png}
+    \includegraphics[width=0.9\textwidth]{images/Implementation/flports2.png}
     \caption{FortiGate FortiLink Ports}
     \label{fig:flports2}
 \end{figure}
@@ -825,7 +765,7 @@ We also need to setup the APs.
 We first ensure that our APs are connected to the FortiGate, Then we set up the SSID as shown in Figure \ref{fig:ssid}, and then we can configure the APs to have the required VLANs and IP addresses.
 \begin{figure}
     \centering
-    \includegraphics[width=0.8\textwidth]{images/Implementation/ssid.png}
+    \includegraphics[width=0.9\textwidth]{images/Implementation/ssid.png}
     \caption{FortiGate SSID Configuration}
     \label{fig:ssid}
 \end{figure}
@@ -854,7 +794,7 @@ Note: all ports carrying AP traffic should allow Security Fabric Connection in t
 For the DMZ configuration, we need to configure the DMZ interface on the FortiGate, as shown in the previously shown Figure \ref{fig:portscfg}. We can then configure the VIP for the DMZ, as shown in Figure \ref{fig:vip}. VIP, also known as port forwarding, is used to forward traffic from a public IP address to a private IP address on a specific port. This is useful for hosting services such as web servers, email servers, or FTP servers behind a firewall.
 \begin{figure}
     \centering
-    \includegraphics[width=0.8\textwidth]{images/Implementation/vip.png}
+    \includegraphics[width=0.9\textwidth]{images/Implementation/vip.png}
     \caption{FortiGate VIP Configuration}
     \label{fig:vip}
 \end{figure}
@@ -872,7 +812,7 @@ Now we will set up the HA. To be able to achieve HA between two routers, we need
 We can then configure the HA as shown in Figure \ref{fig:ha}.
 \begin{figure}
     \centering
-    \includegraphics[width=0.8\textwidth]{images/Implementation/haconfig.png}
+    \includegraphics[width=0.9\textwidth]{images/Implementation/haconfig.png}
     \caption{FortiGate HA Configuration}
     \label{fig:ha}
 \end{figure}
@@ -880,7 +820,7 @@ We can then configure the HA as shown in Figure \ref{fig:ha}.
 Next we configure the Traffic shaping as shown in Figure \ref{fig:ts}. We can configure the traffic shaping to prioritize certain types of traffic over others, and to limit the bandwidth of certain types of traffic. This can be used to ensure that critical traffic, such as voice and video traffic, always has enough bandwidth and that non-critical traffic, such as file downloads, does not consume all the available bandwidth. The ww configure the traffic shaping policy as shown in Figure \ref{fig:tspolicy}.
 \begin{figure}
     \centering
-    \includegraphics[width=0.8\textwidth]{images/Implementation/ts.png}
+    \includegraphics[width=0.9\textwidth]{images/Implementation/ts.png}
     \caption{FortiGate Traffic Shaping Configuration}
     \label{fig:ts}
 \end{figure}
@@ -890,22 +830,139 @@ Next we configure the Traffic shaping as shown in Figure \ref{fig:ts}. We can co
     \caption{FortiGate Traffic Shaping Policy Configuration}
     \label{fig:tspolicy}
 \end{figure}
-
+%TODO: Pictures for the rest of the features
+%TOOO: Rogue DHCP server detection دييي اتش سي بي
+%TODO: Proper casing for brand names
 \subsection{Automation}
-As shown in figure \ref{fig:auto}, we can set up a trigger and an action to be taken when the trigger is activated. This can be used to automate certain tasks, such as sending an email when a certain event occurs, or blocking a user when a certain condition is met, etc. This can be used for our Exam VLAN, for example, we can set up a trigger to block a user when he tries to access a certain website, or to block a user when he tries to access the internet during an exam, etc. Unfortuantely, this feature is hard to apply on a small scale, thus it will only be presented as part of the design, but not implemented.
+As shown in figure \ref{fig:auto}, we can set up a trigger and an action to be taken when the trigger is activated. This can be used to automate certain tasks, such as sending an email when a certain event occurs, or blocking a user when a certain condition is met, etc. This can be used for our Exam VLAN, for example, we can set up a trigger to block a user when he tries to access a certain website, or to block a user when he tries to access the internet during an exam, etc. Unfortunately, this feature is hard to apply on a small scale, thus it will only be presented as part of the design, but not implemented.
 \begin{figure}
     \centering
-    \includegraphics[width=0.8\textwidth]{images/Implementation/auto.png}
+    \includegraphics[width=0.9\textwidth]{images/Implementation/auto.png}
     \caption{FortiGate Automation Configuration}
     \label{fig:auto}
 \end{figure}
 
 
+%4.2	What infrastructure your solution depends on, or is using to accomplish its tasks? 
+\section{Infrastructure}
+The project requires the following tools and equipment to accomplish its tasks:
+\begin{itemize}
+    \item Fortinet devices: The project will use FortiGate firewalls, FortiSwitches, and FortiAPs to provide security, routing, and wireless services for the university's network. The Fortinet devices will be configured and managed using the FortiGate interface, providing a unified management platform for the network infrastructure.
+    \item FortiLink: The project will use FortiLink technology to integrate FortiSwitches and FortiAPs with FortiGate firewalls, enabling centralized control and visibility over the network infrastructure. FortiLink will simplify network deployment and management, providing a seamless and secure network environment for the university.
+    \item FortiAnalyzer: The project will use FortiAnalyzer to monitor and analyze network traffic, detect security incidents, and generate reports on network performance and security. FortiAnalyzer will provide real-time visibility and insights into network activities, enabling proactive monitoring and response to security threats.
+    \item FortiAuthenticator: The project will use FortiAuthenticator for centralized authentication management, providing role-based access control and secure authentication for users and devices. FortiAuthenticator will ensure that only authorized users have access to the network and resources, enhancing network security and compliance.
+    \item FortiManager: The project will use FortiManager to manage and configure Fortinet devices, automate network operations, and ensure consistent policies and configurations across the network. FortiManager will streamline network management tasks, reduce complexity, and improve operational efficiency.
+\end{itemize}
+The project will leverage the Fortinet Security Fabric to provide integrated security services, visibility, and control over the network infrastructure. The Fortinet Security Fabric will enable the project to detect and respond to security threats, enforce security policies, and ensure the integrity and availability of network resources. The project will also use Fortinet's FortiGuard services to provide real-time threat intelligence, updates, and support for the network infrastructure, ensuring that the network is protected against the latest security threats and vulnerabilities.
+
+\section{Trade-offs}
+The project will need to balance security, performance, and usability to ensure that the network infrastructure meets the university's requirements and objectives. Despite Fortinet's advanced security features and capabilities, Cisco shines in stability, basic networking features, customer support, and its brand that has been thriving in the networking industry since the 80s, thats why Cisco's devices are more expensive, and a lot of the features that are available fore free for Fortinet users, is licensed for Cisco users, like Fortilink and easy to use GUI. 
+
+\section{Assumptions and Dependencies}
+This project assumes that the university has the willing to upgrade and renew its network infrastructure, and that the university has the necessary resources and budget to implement the project. The project also assumes that the university could rely on internal networking, that could require some changes, like assigning local IP for the web server when having a DNS request internally. The project depends on the availability of Fortinet devices, licenses, and support services to ensure that the network infrastructure is properly configured and managed. 
+
+
 \chapter{Results and Discussion}
+\section{Results}
+Upon the implementation of this project, the university will achieve the following:
+\begin{itemize}
+    \item Enhanced network security: The project will provide advanced security features, including firewall policies, VPN configurations, SSL inspection, built in Antivirus and filters, and security services, to protect the university's network from cyber threats and vulnerabilities. The project will also provide security through implementing DMZ which will isolate the direct connection between the outside and the inside.
+    \item Improved network performance: The project will optimize network performance, reliability, and availability by using Fortinet devices, SD-WAN configurations, HA configurations, and traffic shaping to ensure that the network meets the university's requirements and objectives. The project will also provide high availability and redundancy for the network to minimize downtime and ensure continuous operation. 
+    \item Simplified network management: The project will streamline network management tasks, automate network operations, and ensure consistent policies and configurations across the network using FortiManager, FortiAnalyzer, and FortiAuthenticator. Also the GUI which includes a lot of visualization for the networking status and the traffic flow. Fortilink will also provide a single interface to manage all the devices in the network, making it easier and reducing the number of IT staff needed, and faster response to any issues.
+    \item Reliance on internal networking: The project will increase reliance on internal networking, which will reduce the load on the internet, and increase the speed of the network, and reduce the cost of the internet, it will also provide smoother experience for those who want to connect to the internet or from the internet to the DMZ. This will also increase the security of the network, as the traffic will be isolated from the internet.
+    \item Scalable network infrastructure: The project will provide a scalable network infrastructure that can accommodate future growth and expansion, including additional sites, users, and devices, to meet the university's evolving needs and requirements. This is done thanks to the Fortilink technology that allows for easy addition of new devices to the network, as well as the hierarchial topology itself, which allows for the easy growth by adding more switches to the Distribution/edge layers, and more APs for wireless connectivity. More SD-WAN connections can also be added to the network to accommodate the growth for the internet access if needed.  
+    \item Enhanced user experience: The project will improve the user experience by providing reliable and secure network connectivity, high-speed internet access, and seamless wireless coverage throughout the university's campus. The project will also provide role-based access control, web filtering, DNS filtering, application control, and traffic shaping to ensure that users have a safe and productive online experience.
+    \item Cheating detection and prevention: The project will enhance the integrity and security of the examination process by implementing an Examination VLAN that segregates exam-related network traffic from the university's main network. The Examination VLAN will provide a controlled environment for exam takers, prevent cheating, and ensure a fair and secure assessment process. The project will also provide role-based access control, security policies, and monitoring and reporting capabilities to detect and prevent cheating during exams.
+    \item Standardization of network infrastructure: The project will establish a standard network infrastructure that can be used as a template for other universities and institutions in Jordan and the region to enhance their network connectivity and security using Fortinet products. The project will provide a reference design and best practices for network design, security, and management that can be applied to other institutions to improve their network infrastructure and operations.
+
+\end{itemize}
+
+\section{Strengths and Weaknesses}
+\subsection{Strengths}
+\begin{itemize}
+    \item Enhanced security: The project will provide advanced security features, including firewall policies, VPN configurations, SSL inspection, built-in Antivirus and filters, and security services, to protect the university's network from cyber threats and vulnerabilities.
+    \item Improved performance: The project will optimize network performance, reliability, and availability by using Fortinet devices, SD-WAN configurations, HA configurations, and traffic shaping to ensure that the network meets the university's requirements and objectives.
+    \item Simplified management: The project will streamline network management tasks, automate network operations, and ensure consistent policies and configurations across the network using FortiManager, FortiAnalyzer, and FortiAuthenticator. The GUI will also provide a lot of visualization for the networking status and the traffic flow.
+    \item Reliance on internal networking: The project will increase reliance on internal networking, which will reduce the load on the internet, increase the speed of the network, reduce the cost of the internet, and provide a smoother experience for those who want to connect to the internet or from the internet to the DMZ.
+    \item Scalable infrastructure: The project will provide a scalable network infrastructure that can accommodate future growth and expansion, including additional sites, users, and devices, to meet the university's evolving needs and requirements.
+    \item Enhanced user experience: The project will improve the user experience by providing reliable and secure network connectivity, high-speed internet access, and seamless wireless coverage throughout the university's campus.
+    \item Cheating detection and prevention: The project will enhance the integrity and security of the examination process by implementing an Examination VLAN that segregates exam-related network traffic from the university's main network.
+    \item Standardization of infrastructure: The project will establish a standard network infrastructure that can be used as a template for other universities and institutions in Jordan and the region to enhance their network connectivity and security using Fortinet products.
+\end{itemize}
+\subsection{Weaknesses}
+\begin{itemize}
+    \item Cost: The project may initially require a significant investment in Fortinet devices, licenses, and support services, which could be a barrier for some universities with limited budgets.
+    \item Complexity: The project may introduce complexity to the university's network infrastructure, which could require additional training and expertise to manage and maintain the network.
+    \item Dependence on Fortinet: The project's reliance on Fortinet devices and services could limit the university's flexibility and options for network infrastructure, as well as the need for Fortinet support and expertise.
+    \item Integration: The project may require integration with existing network infrastructure, applications, and services, which could introduce compatibility issues and challenges during implementation.
+    \item Maintenance: The project may require ongoing maintenance, updates, and support to ensure that the network infrastructure remains secure, reliable, and efficient.
+    \item Compliance: The project may require compliance with industry standards, regulations, and best practices for network design, security, and management, which could be a challenge for some universities.
+    \item Training: The project may require training for the university's IT staff to ensure that they are familiar with the new network infrastructure and can effectively manage and maintain it.
+\end{itemize}
+
 
 \chapter{Economical, Ethic, and Contemporary Issues}
 
 \section{Preliminary Cost Estimation}
+Note: The following costs are rough estimates and may vary depending on the availability as well as the fact that some Fortinet partners in Jordan may offer discounts or special prices. 
+%Table with device, cost, small description of each device main selling points and quantity needed
+\begin{table}[h]
+    \centering
+    \begin{tabular}{|>{\centering\arraybackslash}m{5cm}|>{\centering\arraybackslash}m{2cm}|>{\centering\arraybackslash}m{2cm}|>{\centering\arraybackslash}m{3cm}|}
+        \hline
+        \textbf{Device} & \textbf{Cost (USD)} & \textbf{Quantity} & \textbf{Total (USD)} \\
+        \hline
+        FortiGate 1800F with licenses \cite{FG1800F} & 110,900 & 2 & 221,800 \\
+        \hline
+        FortiSwitch 1048E \cite{FSw1048E}\cite{FSw1048ELicense} & 26,438 & 2 & 52,876 \\
+        \hline
+        FortiSwitch 524D  with 5year care \cite{FSw524D}  & 3060 & 10 & 30,600\\
+        \hline
+        FortiSwitch 424D   with 3-year care \cite{FSw424D} & 1760 & 90 & 158,400 \\
+        \hline
+        FortiGate 600F  with Licenses \cite{FG600F} & 64300 & 2 & 128,600 \\
+        \hline
+        FortiAP 431F with 5-year care \cite{FortiAP431F} & 775 & 300 & 232,500 \\
+        \hline
+        FortiAP 432F with 5-year care \cite{FortiAP432F}\cite{FortiAP432Care}& 2296 & 70 & 160,720 \\ 
+        \hline
+    \end{tabular}
+    \caption{Preliminary Cost Estimation}
+    \label{tab:cost_estimation}
+\end{table}
+\newline
+\textbf{Estimated Total cost: 985,496 USD} 
+\newpage
+\subsubsection{Comparison with Cisco Devices}
+Now, we can compare those costs with the costs of the same devices from Cisco, as shown in Table \ref{tab:ciscodev}. Note: These costs do not include any licenses.
+\begin{table}[h]
+    \centering
+    \begin{tabular}{|>{\centering\arraybackslash}m{5cm}|>{\centering\arraybackslash}m{2cm}|>{\centering\arraybackslash}m{2cm}|>{\centering\arraybackslash}m{3cm}|}
+        \hline
+        \textbf{Device} & \textbf{Cost (USD)} & \textbf{Quantity} & \textbf{Total (USD)} \\
+        \hline
+        Cisco Firepower 4115 NGFW \cite{4115} & 108,751 & 2 & 217,502 \\
+        \hline
+        Cisco Catalyst 9500 Network Advantage \cite{9500} & 20,751 & 2 & 41,502 \\
+        \hline
+        Cisco Catalyst 9300-24T-A (24-port switch) \cite{9300} & 4,014 & 8 & 32,112\\
+        \hline
+        Cisco Catalyst 9300-48P-A (48-port PoE switch) \cite{9200} & 2,383 & 80 & 190,640 \\
+        \hline
+        Cisco Aironet 4800 AP (equivalent to FortiAP 431F) \cite{4800} & 2,053.43 & 300 & 620,000 \\
+        \hline
+        Cisco Aironet 1572EAC (equivalent to FortiAP 433F) \cite{1572} & 2,082 & 70 & 145,740 \\ 
+        \hline
+    \end{tabular}
+    \caption{Preliminary Cost Estimation for Cisco Devices}
+    \label{tab:ciscodev}
+\end{table}
+
+\textbf{Estimated Total cost: 1,247,496 USD}
+
+As we can observe, Fortinet is much cheaper than Cisco, and provides a lot of features for free that Cisco charges for, like Fortilink and easy to use GUI.
+
+
 \section{Relevant Codes of Ethics and Moral Frameworks}
 The project will adhere to the following codes of ethics and moral frameworks:
 \begin{itemize}
@@ -914,7 +971,12 @@ The project will adhere to the following codes of ethics and moral frameworks:
     \item \textbf{Fortinet Code of Business Conduct}: The project will also adhere to the Fortinet Code of Business Conduct, which outlines the ethical standards and principles that Fortinet employees and partners are expected to follow. The project team will ensure that all interactions with Fortinet and the use of Fortinet products are in line with the Fortinet Code of Business Conduct. \cite{FortinetCOC}
 \end{itemize}
 \section{Relevant Environmental Considerations}
-% TODO
+The project will consider the following environmental considerations:
+\begin{itemize}
+    \item Energy efficiency: The project will aim to use energy-efficient network devices and technologies to reduce power consumption and minimize the environmental impact of the network infrastructure. The project will also consider the environmental impact of network operations and implement energy-saving measures to reduce the carbon footprint of the network.
+    \item E-waste management: The project will follow e-waste management guidelines to ensure that old network devices and equipment are properly disposed of and recycled in an environmentally friendly manner. The project will work with certified e-waste recycling companies to dispose of old network devices and equipment in compliance with environmental regulations.
+    \item Green computing: The project will promote green computing practices, such as virtualization, cloud computing, and energy-efficient hardware, to reduce the environmental impact of the network infrastructure. The project will also consider the environmental impact of network operations and implement green computing initiatives to minimize energy consumption and carbon emissions.
+\end{itemize}
 \section{Relevance to Jordan and Region}
 One of the things we aim to achieve is to standardize network infrastructure in Jordanian universities, and produce a standard that any institution can follow when installing/renewing their network infrastructure. This project can be used as a template for other universities in Jordan and the region to enhance their network connectivity and security using Fortinet products.
 
@@ -930,21 +992,31 @@ The project team will follow a strict quality management process to ensure that 
 The project team is committed to minimizing downtime by strategically utilizing breaks, nights, and weekends. This approach includes broadcasting scheduled downtimes to users to ensure they are informed and can plan accordingly. As a precautionary measure, the team will regularly backup data to safeguard against unexpected incidents. The hardware installation will follow a top-down approach, starting from the FortiGates and moving to the FortiAPs as per the roadmap. This method is designed to minimize downtime and ensure a smooth transition. In addition, the team will conduct a comprehensive risk assessment to pinpoint potential risks. These risks could range from hardware failures and software bugs to network outages. Once identified, a risk management plan will be developed to mitigate these risks. The team will devise strategies aimed at minimizing the impact of these risks on the project. Furthermore, the team will create a contingency plan to address any unforeseen issues that may arise during the project's lifecycle. This plan will provide a roadmap for dealing with potential problems and ensure the project stays on track.
 \section{Project Procurement}
 Once approved, YU project manager will contact a networking services company (e.g. Specialized Technical Services, or FutureTech) who will handle the procurement of the necessary hardware and software. The company will be responsible for sourcing the Fortinet products, as well as any additional equipment required for the project. The company will also be responsible for the installation and configuration of the network infrastructure, as well as providing training to the university's IT staff. The project manager will work closely with the company to ensure that the project is completed on time and within budget.
+%TODO: QoS for staff, profs, students (eng and others) and guests + guest nw
 
 \chapter{Conclusion and Future Work}
-% References
+\section{Summary}
+%8.1	Summarize the main contributions of the work.
+The project aims to enhance the network infrastructure of Yarmouk University by implementing a secure, reliable, and efficient network using Fortinet products. The project will provide advanced security features, improved performance, simplified management, and enhanced user experience for the university's network. The project will also establish a standard network infrastructure that can be used as a template for other universities and institutions in Jordan and the region to enhance their network connectivity and security using Fortinet products. The project will follow industry standards and best practices for network design, security, and management to ensure that the network infrastructure is robust, scalable, and secure. The project will also consider environmental considerations, ethical issues, and contemporary issues to ensure that the network infrastructure complies with legal requirements and data protection regulations. The project will provide a scalable network infrastructure that can accommodate future growth and expansion, including additional sites, users, and devices, to meet the university's evolving needs and requirements. The project will also enhance the integrity and security of the examination process by implementing an Examination VLAN that segregates exam-related network traffic from the university's main network. The project will provide a controlled environment for exam takers, prevent cheating, and ensure a fair and secure assessment process. The project will also provide role-based access control, security policies, and monitoring and reporting capabilities to detect and prevent cheating during exams.
+
+\section{Future Work}
+
+\begin{itemize}
+    \item \textbf{Implementation of the project}: The project team will work closely with the university's IT department to implement the project and ensure that the network infrastructure is properly configured and managed. The project team will provide training to the university's IT staff to ensure that they are familiar with the new network infrastructure and can effectively manage and maintain it.
+    \item \textbf{Testing and deployment of the project}: The project team will conduct regular testing and quality assurance checks to identify and resolve any issues that may arise during the project. The project team will also provide training to the university's IT staff to ensure that they are familiar with the new network infrastructure and can effectively manage and maintain it.
+    \item \textbf{Monitoring and maintenance of the project}: The project team will monitor the network infrastructure to ensure that it is secure, reliable, and efficient. The project team will also provide ongoing maintenance, updates, and support to ensure that the network infrastructure remains secure, reliable, and efficient.
+    \item \textbf{Expansion of the project}: The project team will work with the university's management team to expand the project to other sites, users, and devices to meet the university's evolving needs and requirements. The project team will also provide regular updates to the university's management team to keep them informed of the project's progress.
+\end{itemize}
+
+\section{Lessons Learned}
+The project team has learned several valuable lessons during the course of the project, including the importance of collaboration, communication, and teamwork. The project team has also learned the importance of following industry standards and best practices for network design, security, and management to ensure that the network infrastructure is robust, scalable, and secure. The project team has also learned the importance of considering environmental considerations, ethical issues, and contemporary issues to ensure that the network infrastructure complies with legal requirements and data protection regulations. The project team has also learned the importance of monitoring and maintenance to ensure that the network infrastructure remains secure, reliable, and efficient.
+Technical wise, this project is a great head-start to any network infrastructure project, as it provides a lot of information about the design, implementation, and management of a network infrastructure, and it provides a lot of information about the Fortinet products and how to use them to achieve the best results. This project helped us t familiarize even more with Fortinet ecosystem, and will definitely help us in our future careers and certifications like NSE4-8.
+ 
+
+
 \newpage
 \bibliographystyle{unsrt}
 \bibliography{references}
-
-% Appendices
-\newpage
-
-\begin{appendices}
-
-\chapter{User Manual}
-           
-\end{appendices}
 
 
 \end{document}

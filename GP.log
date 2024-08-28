@@ -1,77 +1,77 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.12.4)  20 JUL 2024 18:46
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.7.25)  29 AUG 2024 01:18
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**c:/Users/zaid3/OneDrive/Desktop/GP/GP.tex
-(c:/Users/zaid3/OneDrive/Desktop/GP/GP.tex
-LaTeX2e <2023-11-01>
-L3 programming layer <2023-11-09>
-(c:/texlive/2023/texmf-dist/tex/latex/base/report.cls
-Document Class: report 2023/05/17 v1.4n Standard LaTeX document class
-(c:/texlive/2023/texmf-dist/tex/latex/base/size12.clo
-File: size12.clo 2023/05/17 v1.4n Standard LaTeX file (size option)
+**c:/Users/zaid3/OneDrive/Desktop/GP-main/GP.tex
+(c:/Users/zaid3/OneDrive/Desktop/GP-main/GP.tex
+LaTeX2e <2024-06-01> patch level 2
+L3 programming layer <2024-05-27>
+(c:/texlive/2024/texmf-dist/tex/latex/base/report.cls
+Document Class: report 2024/02/08 v1.4n Standard LaTeX document class
+(c:/texlive/2024/texmf-dist/tex/latex/base/size12.clo
+File: size12.clo 2024/02/08 v1.4n Standard LaTeX file (size option)
 )
-\c@part=\count186
-\c@chapter=\count187
-\c@section=\count188
-\c@subsection=\count189
-\c@subsubsection=\count190
-\c@paragraph=\count191
-\c@subparagraph=\count192
-\c@figure=\count193
-\c@table=\count194
-\abovecaptionskip=\skip48
-\belowcaptionskip=\skip49
-\bibindent=\dimen140
-) (c:/texlive/2023/texmf-dist/tex/latex/base/inputenc.sty
-Package: inputenc 2021/02/14 v1.3d Input encoding file
+\c@part=\count194
+\c@chapter=\count195
+\c@section=\count196
+\c@subsection=\count197
+\c@subsubsection=\count198
+\c@paragraph=\count199
+\c@subparagraph=\count266
+\c@figure=\count267
+\c@table=\count268
+\abovecaptionskip=\skip49
+\belowcaptionskip=\skip50
+\bibindent=\dimen141
+) (c:/texlive/2024/texmf-dist/tex/latex/base/inputenc.sty
+Package: inputenc 2024/02/08 v1.3d Input encoding file
 \inpenc@prehook=\toks17
 \inpenc@posthook=\toks18
-) (c:/texlive/2023/texmf-dist/tex/latex/graphics/graphicx.sty
+) (c:/texlive/2024/texmf-dist/tex/latex/graphics/graphicx.sty
 Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
- (c:/texlive/2023/texmf-dist/tex/latex/graphics/keyval.sty
+ (c:/texlive/2024/texmf-dist/tex/latex/graphics/keyval.sty
 Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
 \KV@toks@=\toks19
-) (c:/texlive/2023/texmf-dist/tex/latex/graphics/graphics.sty
-Package: graphics 2022/03/10 v1.4e Standard LaTeX Graphics (DPC,SPQR)
- (c:/texlive/2023/texmf-dist/tex/latex/graphics/trig.sty
-Package: trig 2021/08/11 v1.11 sin cos tan (DPC)
-) (c:/texlive/2023/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+) (c:/texlive/2024/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2024/05/23 v1.4g Standard LaTeX Graphics (DPC,SPQR)
+ (c:/texlive/2024/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2023/12/02 v1.11 sin cos tan (DPC)
+) (c:/texlive/2024/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
 File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
-Package graphics Info: Driver file: pdftex.def on input line 107.
- (c:/texlive/2023/texmf-dist/tex/latex/graphics-def/pdftex.def
-File: pdftex.def 2022/09/22 v1.2b Graphics/color driver for pdftex
+Package graphics Info: Driver file: pdftex.def on input line 106.
+ (c:/texlive/2024/texmf-dist/tex/latex/graphics-def/pdftex.def
+File: pdftex.def 2024/04/13 v1.2c Graphics/color driver for pdftex
 ))
-\Gin@req@height=\dimen141
-\Gin@req@width=\dimen142
-) (c:/texlive/2023/texmf-dist/tex/latex/geometry/geometry.sty
+\Gin@req@height=\dimen142
+\Gin@req@width=\dimen143
+) (c:/texlive/2024/texmf-dist/tex/latex/geometry/geometry.sty
 Package: geometry 2020/01/02 v5.9 Page Geometry
- (c:/texlive/2023/texmf-dist/tex/generic/iftex/ifvtex.sty
+ (c:/texlive/2024/texmf-dist/tex/generic/iftex/ifvtex.sty
 Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
- (c:/texlive/2023/texmf-dist/tex/generic/iftex/iftex.sty
+ (c:/texlive/2024/texmf-dist/tex/generic/iftex/iftex.sty
 Package: iftex 2022/02/03 v1.0f TeX engine tests
 ))
-\Gm@cnth=\count195
-\Gm@cntv=\count196
-\c@Gm@tempcnt=\count197
-\Gm@bindingoffset=\dimen143
-\Gm@wd@mp=\dimen144
-\Gm@odd@mp=\dimen145
-\Gm@even@mp=\dimen146
-\Gm@layoutwidth=\dimen147
-\Gm@layoutheight=\dimen148
-\Gm@layouthoffset=\dimen149
-\Gm@layoutvoffset=\dimen150
+\Gm@cnth=\count269
+\Gm@cntv=\count270
+\c@Gm@tempcnt=\count271
+\Gm@bindingoffset=\dimen144
+\Gm@wd@mp=\dimen145
+\Gm@odd@mp=\dimen146
+\Gm@even@mp=\dimen147
+\Gm@layoutwidth=\dimen148
+\Gm@layoutheight=\dimen149
+\Gm@layouthoffset=\dimen150
+\Gm@layoutvoffset=\dimen151
 \Gm@dimlist=\toks20
-) (c:/texlive/2023/texmf-dist/tex/latex/xcolor/xcolor.sty
+) (c:/texlive/2024/texmf-dist/tex/latex/xcolor/xcolor.sty
 Package: xcolor 2023/11/15 v3.01 LaTeX color extensions (UK)
- (c:/texlive/2023/texmf-dist/tex/latex/graphics-cfg/color.cfg
+ (c:/texlive/2024/texmf-dist/tex/latex/graphics-cfg/color.cfg
 File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
 Package xcolor Info: Driver file: pdftex.def on input line 274.
- (c:/texlive/2023/texmf-dist/tex/latex/graphics/mathcolor.ltx)
+ (c:/texlive/2024/texmf-dist/tex/latex/graphics/mathcolor.ltx)
 Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1350.
 Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1354.
 Package xcolor Info: Model `RGB' extended on input line 1366.
@@ -81,113 +81,151 @@ Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1370.
 Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1371.
 Package xcolor Info: Model `Gray' substituted by `gray' on input line 1372.
 Package xcolor Info: Model `wave' substituted by `hsb' on input line 1373.
-) (c:/texlive/2023/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
-Package: fancyhdr 2022/11/09 v4.1 Extensive control of page headers and footers
-\f@nch@headwidth=\skip50
-\f@nch@O@elh=\skip51
-\f@nch@O@erh=\skip52
-\f@nch@O@olh=\skip53
-\f@nch@O@orh=\skip54
-\f@nch@O@elf=\skip55
-\f@nch@O@erf=\skip56
-\f@nch@O@olf=\skip57
-\f@nch@O@orf=\skip58
-) (c:/texlive/2023/texmf-dist/tex/latex/setspace/setspace.sty
+) (c:/texlive/2024/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
+Package: fancyhdr 2024/07/23 v4.3.1 Extensive control of page headers and footers
+\f@nch@headwidth=\skip51
+\f@nch@O@elh=\skip52
+\f@nch@O@erh=\skip53
+\f@nch@O@olh=\skip54
+\f@nch@O@orh=\skip55
+\f@nch@O@elf=\skip56
+\f@nch@O@erf=\skip57
+\f@nch@O@olf=\skip58
+\f@nch@O@orf=\skip59
+) (c:/texlive/2024/texmf-dist/tex/latex/setspace/setspace.sty
 Package: setspace 2022/12/04 v6.7b set line spacing
-) (c:/texlive/2023/texmf-dist/tex/latex/tools/indentfirst.sty
+) (c:/texlive/2024/texmf-dist/tex/latex/tools/indentfirst.sty
 Package: indentfirst 2023/07/02 v1.03 Indent first paragraph (DPC)
-) (c:/texlive/2023/texmf-dist/tex/latex/appendix/appendix.sty
+) (c:/texlive/2024/texmf-dist/tex/latex/appendix/appendix.sty
 Package: appendix 2020/02/08 v1.2c extra appendix facilities
-\c@@pps=\count198
-\c@@ppsavesec=\count199
-\c@@ppsaveapp=\count266
-) (c:/texlive/2023/texmf-dist/tex/latex/titlesec/titlesec.sty
+\c@@pps=\count272
+\c@@ppsavesec=\count273
+\c@@ppsaveapp=\count274
+) (c:/texlive/2024/texmf-dist/tex/latex/titlesec/titlesec.sty
 Package: titlesec 2023/10/27 v2.16 Sectioning titles
-\ttl@box=\box51
-\beforetitleunit=\skip59
-\aftertitleunit=\skip60
-\ttl@plus=\dimen151
-\ttl@minus=\dimen152
+\ttl@box=\box52
+\beforetitleunit=\skip60
+\aftertitleunit=\skip61
+\ttl@plus=\dimen152
+\ttl@minus=\dimen153
 \ttl@toksa=\toks21
-\titlewidth=\dimen153
-\titlewidthlast=\dimen154
-\titlewidthfirst=\dimen155
-) (c:/texlive/2023/texmf-dist/tex/latex/natbib/natbib.sty
+\titlewidth=\dimen154
+\titlewidthlast=\dimen155
+\titlewidthfirst=\dimen156
+) (c:/texlive/2024/texmf-dist/tex/latex/natbib/natbib.sty
 Package: natbib 2010/09/13 8.31b (PWD, AO)
-\bibhang=\skip61
-\bibsep=\skip62
+\bibhang=\skip62
+\bibsep=\skip63
 LaTeX Info: Redefining \cite on input line 694.
-\c@NAT@ctr=\count267
-) (c:/texlive/2023/texmf-dist/tex/latex/url/url.sty
-\Urlmuskip=\muskip16
+\c@NAT@ctr=\count275
+) (c:/texlive/2024/texmf-dist/tex/latex/url/url.sty
+\Urlmuskip=\muskip17
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
-) (c:/texlive/2023/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+) (c:/texlive/2024/texmf-dist/tex/latex/etoolbox/etoolbox.sty
 Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
-\etb@tempcnta=\count268
-) (c:/texlive/2023/texmf-dist/tex/latex/pdfpages/pdfpages.sty
-Package: pdfpages 2022/12/19 v0.5x Insert pages of external PDF documents (AM)
- (c:/texlive/2023/texmf-dist/tex/latex/base/ifthen.sty
-Package: ifthen 2022/04/13 v1.1d Standard LaTeX ifthen package (DPC)
-) (c:/texlive/2023/texmf-dist/tex/latex/tools/calc.sty
+\etb@tempcnta=\count276
+) (c:/texlive/2024/texmf-dist/tex/latex/pdfpages/pdfpages.sty
+Package: pdfpages 2024/05/29 v0.6a Insert pages of external PDF documents (AM)
+ (c:/texlive/2024/texmf-dist/tex/latex/base/ifthen.sty
+Package: ifthen 2024/03/16 v1.1e Standard LaTeX ifthen package (DPC)
+) (c:/texlive/2024/texmf-dist/tex/latex/tools/calc.sty
 Package: calc 2023/07/08 v4.3 Infix arithmetic (KKT,FJ)
-\calc@Acount=\count269
-\calc@Bcount=\count270
-\calc@Adimen=\dimen156
-\calc@Bdimen=\dimen157
-\calc@Askip=\skip63
-\calc@Bskip=\skip64
+\calc@Acount=\count277
+\calc@Bcount=\count278
+\calc@Adimen=\dimen157
+\calc@Bdimen=\dimen158
+\calc@Askip=\skip64
+\calc@Bskip=\skip65
 LaTeX Info: Redefining \setlength on input line 80.
 LaTeX Info: Redefining \addtolength on input line 81.
-\calc@Ccount=\count271
-\calc@Cskip=\skip65
-) (c:/texlive/2023/texmf-dist/tex/latex/eso-pic/eso-pic.sty
+\calc@Ccount=\count279
+\calc@Cskip=\skip66
+) (c:/texlive/2024/texmf-dist/tex/latex/eso-pic/eso-pic.sty
 Package: eso-pic 2023/05/03 v3.0c eso-pic (RN)
-\ESO@tempdima=\dimen158
-\ESO@tempdimb=\dimen159
+\ESO@tempdima=\dimen159
+\ESO@tempdimb=\dimen160
 )
-\AM@pagewidth=\dimen160
-\AM@pageheight=\dimen161
-\AM@fboxrule=\dimen162
- (c:/texlive/2023/texmf-dist/tex/latex/pdfpages/pppdftex.def
-File: pppdftex.def 2022/12/19 v0.5x Pdfpages driver for pdfTeX (AM)
+\AM@pagewidth=\dimen161
+\AM@pageheight=\dimen162
+\AM@fboxrule=\dimen163
+ (c:/texlive/2024/texmf-dist/tex/latex/pdfpages/pppdftex.def
+File: pppdftex.def 2024/05/29 v0.6a Pdfpages driver for pdfTeX (AM)
 )
-\pdfpages@includegraphics@status=\count272
-\AM@pagebox=\box52
+\pdfpages@includegraphics@status=\count280
+\AM@pagebox=\box53
 \AM@global@opts=\toks22
-\AM@pagecnt=\count273
+\AM@pagecnt=\count281
 \AM@toc@title=\toks23
 \AM@lof@heading=\toks24
-\c@AM@survey=\count274
-\AM@templatesizebox=\box53
-) (c:/texlive/2023/texmf-dist/tex/latex/tools/array.sty
-Package: array 2023/10/16 v2.5g Tabular extension package (FMi)
-\col@sep=\dimen163
-\ar@mcellbox=\box54
-\extrarowheight=\dimen164
+\c@AM@survey=\count282
+\AM@templatesizebox=\box54
+) (c:/texlive/2024/texmf-dist/tex/latex/tools/array.sty
+Package: array 2024/06/14 v2.6d Tabular extension package (FMi)
+\col@sep=\dimen164
+\ar@mcellbox=\box55
+\extrarowheight=\dimen165
 \NC@list=\toks25
-\extratabsurround=\skip66
-\backup@length=\skip67
-\ar@cellbox=\box55
-) (c:/texlive/2023/texmf-dist/tex/latex/caption/caption.sty
+\extratabsurround=\skip67
+\backup@length=\skip68
+\ar@cellbox=\box56
+) (c:/texlive/2024/texmf-dist/tex/latex/caption/caption.sty
 Package: caption 2023/08/05 v3.6o Customizing captions (AR)
- (c:/texlive/2023/texmf-dist/tex/latex/caption/caption3.sty
+ (c:/texlive/2024/texmf-dist/tex/latex/caption/caption3.sty
 Package: caption3 2023/07/31 v2.4d caption3 kernel (AR)
-\caption@tempdima=\dimen165
-\captionmargin=\dimen166
-\caption@leftmargin=\dimen167
-\caption@rightmargin=\dimen168
-\caption@width=\dimen169
-\caption@indent=\dimen170
-\caption@parindent=\dimen171
-\caption@hangindent=\dimen172
+\caption@tempdima=\dimen166
+\captionmargin=\dimen167
+\caption@leftmargin=\dimen168
+\caption@rightmargin=\dimen169
+\caption@width=\dimen170
+\caption@indent=\dimen171
+\caption@parindent=\dimen172
+\caption@hangindent=\dimen173
 Package caption Info: Standard document class detected.
 )
-\c@caption@flags=\count275
-\c@continuedfloat=\count276
-) (c:/texlive/2023/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
-File: l3backend-pdftex.def 2023-11-09 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count277
-\l__pdf_internal_box=\box56
+\c@caption@flags=\count283
+\c@continuedfloat=\count284
+) (c:/texlive/2024/texmf-dist/tex/latex/lm/lmodern.sty
+Package: lmodern 2015/05/01 v1.6.1 Latin Modern Fonts
+LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+(Font)                  OT1/cmr/m/n --> OT1/lmr/m/n on input line 22.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `normal'
+(Font)                  OML/cmm/m/it --> OML/lmm/m/it on input line 23.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `normal'
+(Font)                  OMS/cmsy/m/n --> OMS/lmsy/m/n on input line 24.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `normal'
+(Font)                  OMX/cmex/m/n --> OMX/lmex/m/n on input line 25.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  OT1/cmr/bx/n --> OT1/lmr/bx/n on input line 26.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `bold'
+(Font)                  OML/cmm/b/it --> OML/lmm/b/it on input line 27.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
+(Font)                  OMS/cmsy/b/n --> OMS/lmsy/b/n on input line 28.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
+(Font)                  OMX/cmex/m/n --> OMX/lmex/m/n on input line 29.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
+(Font)                  OT1/cmr/bx/n --> OT1/lmr/bx/n on input line 31.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
+(Font)                  OT1/cmss/m/n --> OT1/lmss/m/n on input line 32.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
+(Font)                  OT1/cmr/m/it --> OT1/lmr/m/it on input line 33.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
+(Font)                  OT1/cmtt/m/n --> OT1/lmtt/m/n on input line 34.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
+(Font)                  OT1/cmr/bx/n --> OT1/lmr/bx/n on input line 35.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
+(Font)                  OT1/cmss/bx/n --> OT1/lmss/bx/n on input line 36.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
+(Font)                  OT1/cmr/bx/it --> OT1/lmr/bx/it on input line 37.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
+(Font)                  OT1/cmtt/m/n --> OT1/lmtt/m/n on input line 38.
+)
+LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 73.
+ (c:/texlive/2024/texmf-dist/tex/latex/lm/ot1lmr.fd
+File: ot1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+) (c:/texlive/2024/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
+File: l3backend-pdftex.def 2024-05-08 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count285
+\l__pdf_internal_box=\box57
 ) (./GP.aux)
 \openout1 = `GP.aux'.
 
@@ -205,23 +243,23 @@ LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 73.
 LaTeX Font Info:    ... okay on input line 73.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 73.
 LaTeX Font Info:    ... okay on input line 73.
- (c:/texlive/2023/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+ (c:/texlive/2024/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count278
-\scratchdimen=\dimen173
-\scratchbox=\box57
-\nofMPsegments=\count279
-\nofMParguments=\count280
+\scratchcounter=\count286
+\scratchdimen=\dimen174
+\scratchbox=\box58
+\nofMPsegments=\count287
+\nofMParguments=\count288
 \everyMPshowfont=\toks26
-\MPscratchCnt=\count281
-\MPscratchDim=\dimen174
-\MPnumerator=\count282
-\makeMPintoPDFobject=\count283
+\MPscratchCnt=\count289
+\MPscratchDim=\dimen175
+\MPnumerator=\count290
+\makeMPintoPDFobject=\count291
 \everyMPtoPDFconversion=\toks27
-) (c:/texlive/2023/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
+) (c:/texlive/2024/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
- (c:/texlive/2023/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+ (c:/texlive/2024/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 ))
 *geometry* driver: auto-detecting
@@ -258,23 +296,24 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-(c:/texlive/2023/texmf-dist/tex/latex/pdflscape/pdflscape.sty
+(c:/texlive/2024/texmf-dist/tex/latex/pdflscape/pdflscape.sty
 Package: pdflscape 2022-10-27 v0.13 Display of landscape pages in PDF
- (c:/texlive/2023/texmf-dist/tex/latex/pdflscape/pdflscape-nometadata.sty
+ (c:/texlive/2024/texmf-dist/tex/latex/pdflscape/pdflscape-nometadata.sty
 Package: pdflscape-nometadata 2022-10-28 v0.13 Display of landscape pages in PDF (HO)
- (c:/texlive/2023/texmf-dist/tex/latex/graphics/lscape.sty
+ (c:/texlive/2024/texmf-dist/tex/latex/graphics/lscape.sty
 Package: lscape 2020/05/28 v3.02 Landscape Pages (DPC)
 )
 Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
 ))
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
+
+
 <images/yarmouk_university_logo.png, id=1, 890.32625pt x 963.6pt>
 File: images/yarmouk_university_logo.png Graphic file (type png)
 <use images/yarmouk_university_logo.png>
 Package pdftex.def Info: images/yarmouk_university_logo.png  used on input line 97.
 (pdftex.def)             Requested size: 67.94241pt x 73.53136pt.
-
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 77.8814pt, for example:
@@ -282,94 +321,143 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-65.8814pt}.
 
-[1{c:/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
+[1{c:/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{c:/texlive/2024/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}
 
  <./images/yarmouk_university_logo.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 104--107
-
- []
 
 [1] (./GP.toc
-LaTeX Font Info:    External font `cmex10' loaded for size
+LaTeX Font Info:    Trying to load font information for OML+lmm on input line 4.
+ (c:/texlive/2024/texmf-dist/tex/latex/lm/omllmm.fd
+File: omllmm.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+)
+LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 4.
+ (c:/texlive/2024/texmf-dist/tex/latex/lm/omslmsy.fd
+File: omslmsy.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+)
+LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 4.
+ (c:/texlive/2024/texmf-dist/tex/latex/lm/omxlmex.fd
+File: omxlmex.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+)
+LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <12> on input line 4.
-LaTeX Font Info:    External font `cmex10' loaded for size
+LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <8> on input line 4.
-LaTeX Font Info:    External font `cmex10' loaded for size
+LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <6> on input line 4.
- [2
 
-] [3])
+
+[2
+
+]
+
+[3])
 \tf@toc=\write3
 \openout3 = `GP.toc'.
 
- [4] (./GP.lot)
+
+
+[4] (./GP.lot)
 \tf@lot=\write4
 \openout4 = `GP.lot'.
 
- [5
 
-] (./GP.lof [6
+
+[5
+
+] (./GP.lof
+
+[6
 
 ])
 \tf@lof=\write5
 \openout5 = `GP.lof'.
 
- [7] [8
+
+
+[7]
+
+[8
 
 ]
 Chapter 1.
+LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 143.
+(c:/texlive/2024/texmf-dist/tex/latex/lm/ts1lmr.fd
+File: ts1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+)
+Overfull \hbox (9.3601pt too wide) in paragraph at lines 147--148
+[]\OT1/lmr/m/n/12 Ensure net-work re-dun-dancy and load bal-anc-ing through tech-nolo-gies such as software-
+ []
+
+
+
 [1
 
 
-{c:/texlive/2023/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}]
+{c:/texlive/2024/texmf-dist/fonts/enc/dvips/lm/lm-ts1.enc}]
 <images/fortinet.png, id=40, 702.625pt x 230.8625pt>
 File: images/fortinet.png Graphic file (type png)
 <use images/fortinet.png>
-Package pdftex.def Info: images/fortinet.png  used on input line 172.
-(pdftex.def)             Requested size: 362.37569pt x 119.06987pt.
- [2 <./images/fortinet.png>] [3] [4] [5] [6]
-<images/HLfig.png, id=59, 1165.35374pt x 550.30594pt>
+Package pdftex.def Info: images/fortinet.png  used on input line 156.
+(pdftex.def)             Requested size: 407.66833pt x 133.95317pt.
+
+
+[2 <./images/fortinet.png>]
+
+[3]
+
+[4]
+<images/HLfig.png, id=52, 1084.05pt x 536.0025pt>
 File: images/HLfig.png Graphic file (type png)
 <use images/HLfig.png>
-Package pdftex.def Info: images/HLfig.png  used on input line 312.
-(pdftex.def)             Requested size: 362.37569pt x 171.12209pt.
- [7 <./images/HLFig.png>] [8]
+Package pdftex.def Info: images/HLfig.png  used on input line 177.
+(pdftex.def)             Requested size: 407.66833pt x 201.56477pt.
+
+
+[5 <./images/HLfig.png>]
+
+[6]
 Chapter 2.
-<images/Maps.png, id=67, 571.38469pt x 549.55313pt>
+<images/Maps.png, id=60, 571.38469pt x 549.55313pt>
 File: images/Maps.png Graphic file (type png)
 <use images/Maps.png>
-Package pdftex.def Info: images/Maps.png  used on input line 348.
-(pdftex.def)             Requested size: 362.37569pt x 348.5347pt.
-[9
+Package pdftex.def Info: images/Maps.png  used on input line 216.
+(pdftex.def)             Requested size: 407.66833pt x 392.09735pt.
 
-] [10 <./images/Maps.png>] [11]
+
+[7
+
+]
+
+[8 <./images/Maps.png>]
+
+[9]
 Chapter 3.
 
-Overfull \hbox (1.4871pt too wide) in paragraph at lines 362--363
-[]\OT1/cmr/m/n/12 The de-sign of the project will fo-cus on en-hanc-ing the net-work con-nec-tiv-ity for Yarmouk
+Overfull \hbox (1.16418pt too wide) in paragraph at lines 230--231
+[]\OT1/lmr/m/n/12 The de-sign of the project will fo-cus on en-hanc-ing the net-work con-nec-tiv-ity for Yarmouk
  []
 
 
 
 pdfTeX warning: pdflatex.exe (file ./GP Files/Topology.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<GP Files/Topology.pdf, id=79, 614.295pt x 794.97pt>
+<GP Files/Topology.pdf, id=71, 614.295pt x 794.97pt>
 File: GP Files/Topology.pdf Graphic file (type pdf)
 <use GP Files/Topology.pdf>
-Package pdftex.def Info: GP Files/Topology.pdf  used on input line 365.
+Package pdftex.def Info: GP Files/Topology.pdf  used on input line 233.
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
 
 
 pdfTeX warning: pdflatex.exe (file ./GP Files/Topology.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
 File: GP Files/Topology.pdf Graphic file (type pdf)
 <use GP Files/Topology.pdf>
-Package pdftex.def Info: GP Files/Topology.pdf  used on input line 365.
+Package pdftex.def Info: GP Files/Topology.pdf  used on input line 233.
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
 
 
 pdfTeX warning: pdflatex.exe (file ./GP Files/Topology.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
 File: GP Files/Topology.pdf Graphic file (type pdf)
 <use GP Files/Topology.pdf>
-Package pdftex.def Info: GP Files/Topology.pdf  used on input line 365.
+Package pdftex.def Info: GP Files/Topology.pdf  used on input line 233.
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
 
 
@@ -377,502 +465,818 @@ pdfTeX warning: pdflatex.exe (file ./GP Files/Topology.pdf): PDF inclusion: foun
 
 
 pdfTeX warning: pdflatex.exe (file ./GP Files/Topology.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<GP Files/Topology.pdf, id=83, page=1, 614.295pt x 794.97pt>
+<GP Files/Topology.pdf, id=75, page=1, 614.295pt x 794.97pt>
 File: GP Files/Topology.pdf Graphic file (type pdf)
 <use GP Files/Topology.pdf, page 1>
-Package pdftex.def Info: GP Files/Topology.pdf , page1 used on input line 365.
+Package pdftex.def Info: GP Files/Topology.pdf , page1 used on input line 233.
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
 File: GP Files/Topology.pdf Graphic file (type pdf)
 <use GP Files/Topology.pdf, page 1>
-Package pdftex.def Info: GP Files/Topology.pdf , page1 used on input line 365.
+Package pdftex.def Info: GP Files/Topology.pdf , page1 used on input line 233.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+
+
+[10
+
+]
+File: GP Files/Topology.pdf Graphic file (type pdf)
+<use GP Files/Topology.pdf, page 1>
+Package pdftex.def Info: GP Files/Topology.pdf , page1 used on input line 233.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: GP Files/Topology.pdf Graphic file (type pdf)
+<use GP Files/Topology.pdf, page 1>
+Package pdftex.def Info: GP Files/Topology.pdf , page1 used on input line 233.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+
+
+File: GP Files/Topology.pdf Graphic file (type pdf)
+<use GP Files/Topology.pdf, page 1>
+Package pdftex.def Info: GP Files/Topology.pdf , page1 used on input line 233.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+[11
+
+ <./GP Files/Topology.pdf>]
+
+pdfTeX warning: pdflatex.exe (file ./GP Files/Topology.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<GP Files/Topology.pdf, id=93, page=2, 614.295pt x 794.97pt>
+File: GP Files/Topology.pdf Graphic file (type pdf)
+<use GP Files/Topology.pdf, page 2>
+Package pdftex.def Info: GP Files/Topology.pdf , page2 used on input line 233.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: GP Files/Topology.pdf Graphic file (type pdf)
+<use GP Files/Topology.pdf, page 2>
+Package pdftex.def Info: GP Files/Topology.pdf , page2 used on input line 233.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+
+
+File: GP Files/Topology.pdf Graphic file (type pdf)
+<use GP Files/Topology.pdf, page 2>
+Package pdftex.def Info: GP Files/Topology.pdf , page2 used on input line 233.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 [12
 
-]
-File: GP Files/Topology.pdf Graphic file (type pdf)
-<use GP Files/Topology.pdf, page 1>
-Package pdftex.def Info: GP Files/Topology.pdf , page1 used on input line 365.
-(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
-File: GP Files/Topology.pdf Graphic file (type pdf)
-<use GP Files/Topology.pdf, page 1>
-Package pdftex.def Info: GP Files/Topology.pdf , page1 used on input line 365.
-(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
-File: GP Files/Topology.pdf Graphic file (type pdf)
-<use GP Files/Topology.pdf, page 1>
-Package pdftex.def Info: GP Files/Topology.pdf , page1 used on input line 365.
-(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
- [13 <./GP Files/Topology.pdf>]
+ <./GP Files/Topology.pdf>]
 
-pdfTeX warning: pdflatex.exe (file ./GP Files/Topology.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<GP Files/Topology.pdf, id=100, page=2, 614.295pt x 794.97pt>
-File: GP Files/Topology.pdf Graphic file (type pdf)
-<use GP Files/Topology.pdf, page 2>
-Package pdftex.def Info: GP Files/Topology.pdf , page2 used on input line 365.
-(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
-File: GP Files/Topology.pdf Graphic file (type pdf)
-<use GP Files/Topology.pdf, page 2>
-Package pdftex.def Info: GP Files/Topology.pdf , page2 used on input line 365.
-(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
-File: GP Files/Topology.pdf Graphic file (type pdf)
-<use GP Files/Topology.pdf, page 2>
-Package pdftex.def Info: GP Files/Topology.pdf , page2 used on input line 365.
-(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
-[14 <./GP Files/Topology.pdf>] [15]
+[13]
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[16]
-<images/CiscoFW.jpg, id=113, 408.52625pt x 301.125pt>
+
+
+[14]
+<images/CiscoFW.jpg, id=105, 408.52625pt x 301.125pt>
 File: images/CiscoFW.jpg Graphic file (type jpg)
 <use images/CiscoFW.jpg>
-Package pdftex.def Info: images/CiscoFW.jpg  used on input line 406.
-(pdftex.def)             Requested size: 362.37569pt x 267.12279pt.
+Package pdftex.def Info: images/CiscoFW.jpg  used on input line 274.
+(pdftex.def)             Requested size: 407.66833pt x 300.50854pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<images/FortiGate.png, id=114, 903.375pt x 353.32pt>
+<images/FortiGate.png, id=106, 903.375pt x 353.32pt>
 File: images/FortiGate.png Graphic file (type png)
 <use images/FortiGate.png>
-Package pdftex.def Info: images/FortiGate.png  used on input line 413.
-(pdftex.def)             Requested size: 362.37569pt x 141.72983pt.
+Package pdftex.def Info: images/FortiGate.png  used on input line 281.
+(pdftex.def)             Requested size: 407.66833pt x 159.44539pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<images/Policy.png, id=115, 1443.14156pt x 520.19344pt>
+<images/Policy.png, id=107, 1443.14156pt x 520.19344pt>
 File: images/Policy.png Graphic file (type png)
 <use images/Policy.png>
-Package pdftex.def Info: images/Policy.png  used on input line 439.
-(pdftex.def)             Requested size: 362.37569pt x 130.61954pt.
-[17] [18 <./images/CiscoFW.jpg> <./images/FortiGate.png>]
-<images/FortiSwitch.png, id=122, 903.375pt x 236.885pt>
+Package pdftex.def Info: images/Policy.png  used on input line 307.
+(pdftex.def)             Requested size: 407.66833pt x 146.94698pt.
+
+
+[15]
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<images/FortiSwitch.png, id=111, 903.375pt x 236.885pt>
 File: images/FortiSwitch.png Graphic file (type png)
 <use images/FortiSwitch.png>
-Package pdftex.def Info: images/FortiSwitch.png  used on input line 449.
-(pdftex.def)             Requested size: 362.37569pt x 95.0234pt.
- [19 <./images/Policy.png> <./images/FortiSwitch.png>]
-<images/AP.png, id=127, 730.98094pt x 796.47563pt>
+Package pdftex.def Info: images/FortiSwitch.png  used on input line 317.
+(pdftex.def)             Requested size: 407.66833pt x 106.90088pt.
+
+
+[16 <./images/CiscoFW.jpg>]
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+
+[17 <./images/FortiGate.png> <./images/Policy.png>]
+<images/AP.png, id=120, 730.98094pt x 796.47563pt>
 File: images/AP.png Graphic file (type png)
 <use images/AP.png>
-Package pdftex.def Info: images/AP.png  used on input line 467.
-(pdftex.def)             Requested size: 362.37569pt x 394.84608pt.
+Package pdftex.def Info: images/AP.png  used on input line 335.
+(pdftex.def)             Requested size: 407.66833pt x 444.20033pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<images/nat.png, id=128, 475.7775pt x 299.1175pt>
+<images/1800F.png, id=121, 798.985pt x 345.29pt>
+File: images/1800F.png Graphic file (type png)
+<use images/1800F.png>
+Package pdftex.def Info: images/1800F.png  used on input line 348.
+(pdftex.def)             Requested size: 407.66833pt x 176.17986pt.
+
+
+[18 <./images/FortiSwitch.png>]
+
+[19 <./images/AP.png>]
+<images/1048E.png, id=129, 903.375pt x 258.9675pt>
+File: images/1048E.png Graphic file (type png)
+<use images/1048E.png>
+Package pdftex.def Info: images/1048E.png  used on input line 357.
+(pdftex.def)             Requested size: 407.66833pt x 116.86621pt.
+
+
+[20 <./images/1800F.png>]
+<images/524D.jpg, id=134, 411.5375pt x 123.46124pt>
+File: images/524D.jpg Graphic file (type jpg)
+<use images/524D.jpg>
+Package pdftex.def Info: images/524D.jpg  used on input line 367.
+(pdftex.def)             Requested size: 407.66833pt x 122.30046pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+
+[21 <./images/1048E.png (PNG copy)>]
+<images/424D.png, id=138, 903.375pt x 243.91125pt>
+File: images/424D.png Graphic file (type png)
+<use images/424D.png>
+Package pdftex.def Info: images/424D.png  used on input line 377.
+(pdftex.def)             Requested size: 407.66833pt x 110.07167pt.
+<images/600F.png, id=139, 553.31718pt x 134.00063pt>
+File: images/600F.png Graphic file (type png)
+<use images/600F.png>
+Package pdftex.def Info: images/600F.png  used on input line 386.
+(pdftex.def)             Requested size: 407.66833pt x 98.72746pt.
+
+
+[22 <./images/524D.jpg> <./images/424D.png>]
+<images/431F.png, id=144, 216.81pt x 125.71968pt>
+File: images/431F.png Graphic file (type png)
+<use images/431F.png>
+Package pdftex.def Info: images/431F.png  used on input line 395.
+(pdftex.def)             Requested size: 407.66833pt x 236.42015pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<images/432F.png, id=145, 404.26031pt x 284.56313pt>
+File: images/432F.png Graphic file (type png)
+<use images/432F.png>
+Package pdftex.def Info: images/432F.png  used on input line 404.
+(pdftex.def)             Requested size: 407.66833pt x 286.96793pt.
+
+
+[23 <./images/600F.png>]
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+
+[24 <./images/431F.png>]
+<images/nat.png, id=154, 475.7775pt x 299.1175pt>
 File: images/nat.png Graphic file (type png)
 <use images/nat.png>
-Package pdftex.def Info: images/nat.png  used on input line 477.
-(pdftex.def)             Requested size: 362.37569pt x 227.83371pt.
-[20]
+Package pdftex.def Info: images/nat.png  used on input line 415.
+(pdftex.def)             Requested size: 407.66833pt x 256.3095pt.
+
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[21 <./images/AP.png>] [22 <./images/nat.png (PNG copy)>]
-<images/HA.png, id=140, 485.56406pt x 435.12563pt>
+
+
+[25 <./images/432F.png>]
+
+[26 <./images/nat.png (PNG copy)>]
+<images/HA.png, id=161, 485.56406pt x 435.12563pt>
 File: images/HA.png Graphic file (type png)
 <use images/HA.png>
-Package pdftex.def Info: images/HA.png  used on input line 491.
-(pdftex.def)             Requested size: 226.48395pt x 202.95543pt.
- [23 <./images/HA.png>] [24] [25]
-Underfull \hbox (badness 1484) in paragraph at lines 520--520
-\OT1/cmr/m/n/12 en-cryp-tion, in-tegrity, and
+Package pdftex.def Info: images/HA.png  used on input line 429.
+(pdftex.def)             Requested size: 271.7835pt x 243.54918pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+
+[27]
+
+[28 <./images/HA.png>]
+
+[29]
+Underfull \hbox (badness 1484) in paragraph at lines 458--458
+\OT1/lmr/m/n/12 en-cryp-tion, in-tegrity, and
  []
 
 
-Underfull \hbox (badness 2384) in paragraph at lines 521--521
-\OT1/cmr/m/n/12 fig-u-ra-tion on both client
+Underfull \hbox (badness 2384) in paragraph at lines 459--459
+\OT1/lmr/m/n/12 fig-u-ra-tion on both client
  []
 
 
-Underfull \hbox (badness 4582) in paragraph at lines 522--522
-[]|\OT1/cmr/m/n/12 Generally slower due to
+Underfull \hbox (badness 4582) in paragraph at lines 460--460
+[]|\OT1/lmr/m/n/12 Generally slower due to
  []
 
 
-Underfull \hbox (badness 8019) in paragraph at lines 522--522
-[]|\OT1/cmr/m/n/12 Typically faster due to
+Underfull \hbox (badness 8019) in paragraph at lines 460--460
+[]|\OT1/lmr/m/n/12 Typically faster due to
  []
 
 
-Underfull \hbox (badness 2293) in paragraph at lines 524--524
-[]|\OT1/cmr/m/n/12 Better at travers-ing fire-
+Underfull \hbox (badness 2293) in paragraph at lines 462--462
+[]|\OT1/lmr/m/n/12 Better at travers-ing fire-
  []
 
-[26]
-<images/dns.png, id=154, 5688.25125pt x 2258.4375pt>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+
+[30]
+
+[31]
+<images/dns.png, id=179, 5688.25125pt x 2258.4375pt>
 File: images/dns.png Graphic file (type png)
 <use images/dns.png>
-Package pdftex.def Info: images/dns.png  used on input line 548.
-(pdftex.def)             Requested size: 362.37569pt x 143.8744pt.
- [27] [28 <./images/dns.png>] [29] [30] [31] [32] [33] [34] [35] [36]
-Overfull \hbox (11.42342pt too wide) in paragraph at lines 649--662
+Package pdftex.def Info: images/dns.png  used on input line 486.
+(pdftex.def)             Requested size: 407.66833pt x 161.82855pt.
+
+
+[32 <./images/dns.png>]
+
+[33]
+
+[34]
+
+[35]
+
+[36]
+
+[37]
+
+[38]
+
+[39]
+
+[40]
+
+[41]
+Overfull \hbox (11.42342pt too wide) in paragraph at lines 587--600
  [][] 
  []
 
-[37]
+
+
+[42]
 Chapter 4.
-<images/Implementation/ports.png, id=192, 1246.6575pt x 651.18282pt>
+<images/Implementation/ports.png, id=217, 1246.6575pt x 651.18282pt>
 File: images/Implementation/ports.png Graphic file (type png)
 <use images/Implementation/ports.png>
-Package pdftex.def Info: images/Implementation/ports.png  used on input line 685.
-(pdftex.def)             Requested size: 362.37569pt x 189.28531pt.
-<images/Implementation/portconfig.png, id=193, 947.03813pt x 616.55344pt>
+Package pdftex.def Info: images/Implementation/ports.png  used on input line 625.
+(pdftex.def)             Requested size: 407.66833pt x 212.94348pt.
+<images/Implementation/portconfig.png, id=218, 947.03813pt x 616.55344pt>
 File: images/Implementation/portconfig.png Graphic file (type png)
 <use images/Implementation/portconfig.png>
-Package pdftex.def Info: images/Implementation/portconfig.png  used on input line 691.
-(pdftex.def)             Requested size: 362.37569pt x 235.91089pt.
-<images/Implementation/intrfsrole.png, id=194, 246.9225pt x 72.27pt>
+Package pdftex.def Info: images/Implementation/portconfig.png  used on input line 631.
+(pdftex.def)             Requested size: 407.66833pt x 265.40445pt.
+<images/Implementation/intrfsrole.png, id=219, 246.9225pt x 72.27pt>
 File: images/Implementation/intrfsrole.png Graphic file (type png)
 <use images/Implementation/intrfsrole.png>
-Package pdftex.def Info: images/Implementation/intrfsrole.png  used on input line 698.
-(pdftex.def)             Requested size: 362.37569pt x 106.06688pt.
-<images/Implementation/dns.png, id=195, 537.50812pt x 226.59656pt>
+Package pdftex.def Info: images/Implementation/intrfsrole.png  used on input line 638.
+(pdftex.def)             Requested size: 407.66833pt x 119.32413pt.
+<images/Implementation/dns.png, id=220, 537.50812pt x 226.59656pt>
 File: images/Implementation/dns.png Graphic file (type png)
 <use images/Implementation/dns.png>
-Package pdftex.def Info: images/Implementation/dns.png  used on input line 705.
-(pdftex.def)             Requested size: 362.37569pt x 152.76627pt.
-<images/Implementation/routes.png, id=196, 1255.69125pt x 239.39438pt>
+Package pdftex.def Info: images/Implementation/dns.png  used on input line 645.
+(pdftex.def)             Requested size: 407.66833pt x 171.85902pt.
+<images/Implementation/routes.png, id=221, 1255.69125pt x 239.39438pt>
 File: images/Implementation/routes.png Graphic file (type png)
 <use images/Implementation/routes.png>
-Package pdftex.def Info: images/Implementation/routes.png  used on input line 712.
-(pdftex.def)             Requested size: 362.37569pt x 69.08287pt.
-<images/Implementation/ippolicy.png, id=197, 1254.93843pt x 226.59656pt>
+Package pdftex.def Info: images/Implementation/routes.png  used on input line 652.
+(pdftex.def)             Requested size: 407.66833pt x 77.71823pt.
+<images/Implementation/ippolicy.png, id=222, 1254.93843pt x 226.59656pt>
 File: images/Implementation/ippolicy.png Graphic file (type png)
 <use images/Implementation/ippolicy.png>
-Package pdftex.def Info: images/Implementation/ippolicy.png  used on input line 719.
+Package pdftex.def Info: images/Implementation/ippolicy.png  used on input line 659.
 (pdftex.def)             Requested size: 362.37569pt x 65.43124pt.
-<images/Implementation/ippolicyoptions.png, id=198, 987.69pt x 638.385pt>
+<images/Implementation/ippolicyoptions.png, id=223, 987.69pt x 638.385pt>
 File: images/Implementation/ippolicyoptions.png Graphic file (type png)
 <use images/Implementation/ippolicyoptions.png>
-Package pdftex.def Info: images/Implementation/ippolicyoptions.png  used on input line 726.
-(pdftex.def)             Requested size: 362.37569pt x 234.2116pt.
-[38
+Package pdftex.def Info: images/Implementation/ippolicyoptions.png  used on input line 666.
+(pdftex.def)             Requested size: 407.66833pt x 263.4929pt.
+
+
+[43
 
 ]
-<images/Implementation/av.png, id=202, 1087.81406pt x 602.25pt>
+<images/Implementation/av.png, id=227, 1087.81406pt x 602.25pt>
 File: images/Implementation/av.png Graphic file (type png)
 <use images/Implementation/av.png>
-Package pdftex.def Info: images/Implementation/av.png  used on input line 736.
-(pdftex.def)             Requested size: 362.37569pt x 200.62697pt.
-<images/Implementation/wf1.png, id=203, 953.81343pt x 619.56468pt>
+Package pdftex.def Info: images/Implementation/av.png  used on input line 676.
+(pdftex.def)             Requested size: 407.66833pt x 225.69615pt.
+<images/Implementation/wf1.png, id=228, 953.81343pt x 619.56468pt>
 File: images/Implementation/wf1.png Graphic file (type png)
 <use images/Implementation/wf1.png>
-Package pdftex.def Info: images/Implementation/wf1.png  used on input line 743.
-(pdftex.def)             Requested size: 362.37569pt x 235.38976pt.
-<images/Implementation/wf2.png, id=204, 962.84718pt x 646.66594pt>
+Package pdftex.def Info: images/Implementation/wf1.png  used on input line 683.
+(pdftex.def)             Requested size: 407.66833pt x 264.80992pt.
+<images/Implementation/wf2.png, id=229, 962.84718pt x 646.66594pt>
 File: images/Implementation/wf2.png Graphic file (type png)
 <use images/Implementation/wf2.png>
-Package pdftex.def Info: images/Implementation/wf2.png  used on input line 749.
-(pdftex.def)             Requested size: 362.37569pt x 243.37732pt.
-<images/Implementation/wf3.png, id=205, 977.90344pt x 289.83281pt>
+Package pdftex.def Info: images/Implementation/wf2.png  used on input line 689.
+(pdftex.def)             Requested size: 407.66833pt x 273.78838pt.
+<images/Implementation/wf3.png, id=230, 977.90344pt x 289.83281pt>
 File: images/Implementation/wf3.png Graphic file (type png)
 <use images/Implementation/wf3.png>
-Package pdftex.def Info: images/Implementation/wf3.png  used on input line 755.
-(pdftex.def)             Requested size: 362.37569pt x 107.40009pt.
-<images/Implementation/dnsf.png, id=206, 1202.24156pt x 574.39594pt>
+Package pdftex.def Info: images/Implementation/wf3.png  used on input line 695.
+(pdftex.def)             Requested size: 407.66833pt x 120.82675pt.
+<images/Implementation/dnsf.png, id=231, 1202.24156pt x 574.39594pt>
 File: images/Implementation/dnsf.png Graphic file (type png)
 <use images/Implementation/dnsf.png>
-Package pdftex.def Info: images/Implementation/dnsf.png  used on input line 762.
-(pdftex.def)             Requested size: 362.37569pt x 173.13521pt.
-<images/Implementation/ac.png, id=207, 1280.53406pt x 688.07062pt>
+Package pdftex.def Info: images/Implementation/dnsf.png  used on input line 702.
+(pdftex.def)             Requested size: 407.66833pt x 194.77492pt.
+<images/Implementation/ac.png, id=232, 1280.53406pt x 688.07062pt>
 File: images/Implementation/ac.png Graphic file (type png)
 <use images/Implementation/ac.png>
-Package pdftex.def Info: images/Implementation/ac.png  used on input line 769.
-(pdftex.def)             Requested size: 362.37569pt x 194.71628pt.
-<images/Implementation/vpnsetup.png, id=208, 1257.19687pt x 459.96844pt>
+Package pdftex.def Info: images/Implementation/ac.png  used on input line 709.
+(pdftex.def)             Requested size: 407.66833pt x 219.05319pt.
+<images/Implementation/vpnsetup.png, id=233, 1257.19687pt x 459.96844pt>
 File: images/Implementation/vpnsetup.png Graphic file (type png)
 <use images/Implementation/vpnsetup.png>
-Package pdftex.def Info: images/Implementation/vpnsetup.png  used on input line 776.
-(pdftex.def)             Requested size: 362.37569pt x 132.58029pt.
-<images/Implementation/vpn2.png, id=209, 1266.98344pt x 414.04688pt>
+Package pdftex.def Info: images/Implementation/vpnsetup.png  used on input line 716.
+(pdftex.def)             Requested size: 407.66833pt x 149.15108pt.
+<images/Implementation/vpn2.png, id=234, 1266.98344pt x 414.04688pt>
 File: images/Implementation/vpn2.png Graphic file (type png)
 <use images/Implementation/vpn2.png>
-Package pdftex.def Info: images/Implementation/vpn2.png  used on input line 782.
-(pdftex.def)             Requested size: 362.37569pt x 118.42155pt.
-<images/Implementation/ap.png, id=210, 1256.44406pt x 387.69844pt>
+Package pdftex.def Info: images/Implementation/vpn2.png  used on input line 722.
+(pdftex.def)             Requested size: 407.66833pt x 133.22424pt.
+<images/Implementation/ap.png, id=235, 1256.44406pt x 387.69844pt>
 File: images/Implementation/ap.png Graphic file (type png)
 <use images/Implementation/ap.png>
-Package pdftex.def Info: images/Implementation/ap.png  used on input line 789.
-(pdftex.def)             Requested size: 362.37569pt x 111.81442pt.
-<images/Implementation/fl.png, id=211, 1142.76938pt x 542.025pt>
+Package pdftex.def Info: images/Implementation/ap.png  used on input line 729.
+(pdftex.def)             Requested size: 407.66833pt x 125.79344pt.
+<images/Implementation/fl.png, id=236, 1142.76938pt x 542.025pt>
 File: images/Implementation/fl.png Graphic file (type png)
 <use images/Implementation/fl.png>
-Package pdftex.def Info: images/Implementation/fl.png  used on input line 795.
-(pdftex.def)             Requested size: 362.37569pt x 171.88011pt.
-<images/Implementation/flports1.png, id=212, 1121.69063pt x 380.92313pt>
+Package pdftex.def Info: images/Implementation/fl.png  used on input line 735.
+(pdftex.def)             Requested size: 407.66833pt x 193.35893pt.
+<images/Implementation/flports1.png, id=237, 1121.69063pt x 380.92313pt>
 File: images/Implementation/flports1.png Graphic file (type png)
 <use images/Implementation/flports1.png>
-Package pdftex.def Info: images/Implementation/flports1.png  used on input line 801.
-(pdftex.def)             Requested size: 362.37569pt x 123.06036pt.
-<images/Implementation/fltop.png, id=213, 1438.6247pt x 643.6547pt>
+Package pdftex.def Info: images/Implementation/flports1.png  used on input line 741.
+(pdftex.def)             Requested size: 407.66833pt x 138.44pt.
+<images/Implementation/fltop.png, id=238, 1438.6247pt x 643.6547pt>
 File: images/Implementation/fltop.png Graphic file (type png)
 <use images/Implementation/fltop.png>
-Package pdftex.def Info: images/Implementation/fltop.png  used on input line 807.
-(pdftex.def)             Requested size: 362.37569pt x 162.13112pt.
-<images/Implementation/flvlans.png, id=214, 1249.66875pt x 368.1253pt>
+Package pdftex.def Info: images/Implementation/fltop.png  used on input line 747.
+(pdftex.def)             Requested size: 407.66833pt x 182.39261pt.
+<images/Implementation/flvlans.png, id=239, 1249.66875pt x 368.1253pt>
 File: images/Implementation/flvlans.png Graphic file (type png)
 <use images/Implementation/flvlans.png>
-Package pdftex.def Info: images/Implementation/flvlans.png  used on input line 814.
-(pdftex.def)             Requested size: 362.37569pt x 106.74799pt.
-<images/Implementation/flports2.png, id=215, 1254.93843pt x 655.69969pt>
+Package pdftex.def Info: images/Implementation/flvlans.png  used on input line 754.
+(pdftex.def)             Requested size: 407.66833pt x 120.08867pt.
+<images/Implementation/flports2.png, id=240, 1254.93843pt x 655.69969pt>
 File: images/Implementation/flports2.png Graphic file (type png)
 <use images/Implementation/flports2.png>
-Package pdftex.def Info: images/Implementation/flports2.png  used on input line 820.
-(pdftex.def)             Requested size: 362.37569pt x 189.33762pt.
-<images/Implementation/ssid.png, id=216, 1264.725pt x 283.0575pt>
+Package pdftex.def Info: images/Implementation/flports2.png  used on input line 760.
+(pdftex.def)             Requested size: 407.66833pt x 212.99982pt.
+<images/Implementation/ssid.png, id=241, 1264.725pt x 283.0575pt>
 File: images/Implementation/ssid.png Graphic file (type png)
 <use images/Implementation/ssid.png>
-Package pdftex.def Info: images/Implementation/ssid.png  used on input line 828.
-(pdftex.def)             Requested size: 362.37569pt x 81.09981pt.
- [39 <./images/Implementation/ports.png>] [40 <./images/Implementation/portconfig.png> <./images/Implementation/intrfsrole.png> <./images/Implementation/dns.png> <./images/Implementation/routes.png>] [41 <./images/Implementation/ippolicy.png> <./images/Implementation/ippolicyoptions.png> <./images/Implementation/av.png>] [42 <./images/Implementation/wf1.png>] [43 <./images/Implementation/wf2.png> <./images/Implementation/wf3.png> <./images/Implementation/dnsf.png>]
+Package pdftex.def Info: images/Implementation/ssid.png  used on input line 768.
+(pdftex.def)             Requested size: 407.66833pt x 91.23674pt.
+
+
+[44 <./images/Implementation/ports.png>]
+
+[45 <./images/Implementation/portconfig.png> <./images/Implementation/intrfsrole.png> <./images/Implementation/dns.png>]
+
+[46 <./images/Implementation/routes.png> <./images/Implementation/ippolicy.png> <./images/Implementation/ippolicyoptions.png>]
+
+[47 <./images/Implementation/av.png>]
+
+[48 <./images/Implementation/wf1.png> <./images/Implementation/wf2.png>]
+
+[49 <./images/Implementation/wf3.png> <./images/Implementation/dnsf.png> <./images/Implementation/ac.png>]
+
+[50 <./images/Implementation/vpnsetup.png> <./images/Implementation/vpn2.png> <./images/Implementation/ap.png>]
+
+[51 <./images/Implementation/fl.png> <./images/Implementation/flports1.png> <./images/Implementation/fltop.png>]
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[44 <./images/Implementation/ac.png> <./images/Implementation/vpnsetup.png>] [45 <./images/Implementation/vpn2.png> <./images/Implementation/ap.png> <./images/Implementation/fl.png> <./images/Implementation/flports1.png>] [46 <./images/Implementation/fltop.png> <./images/Implementation/flvlans.png> <./images/Implementation/flports2.png> <./images/Implementation/ssid.png>]
-<images/Implementation/vip.png, id=265, 1081.03876pt x 499.8675pt>
+
+
+[52 <./images/Implementation/flvlans.png> <./images/Implementation/flports2.png> <./images/Implementation/ssid.png>]
+<images/Implementation/vip.png, id=293, 1081.03876pt x 499.8675pt>
 File: images/Implementation/vip.png Graphic file (type png)
 <use images/Implementation/vip.png>
-Package pdftex.def Info: images/Implementation/vip.png  used on input line 857.
-(pdftex.def)             Requested size: 362.37569pt x 167.55771pt.
- [47 <./images/Implementation/vip.png>]
-<images/Implementation/haconfig.png, id=270, 1162.3425pt x 506.6428pt>
+Package pdftex.def Info: images/Implementation/vip.png  used on input line 797.
+(pdftex.def)             Requested size: 407.66833pt x 188.50243pt.
+
+
+[53 <./images/Implementation/vip.png>]
+<images/Implementation/haconfig.png, id=298, 1162.3425pt x 506.6428pt>
 File: images/Implementation/haconfig.png Graphic file (type png)
 <use images/Implementation/haconfig.png>
-Package pdftex.def Info: images/Implementation/haconfig.png  used on input line 875.
-(pdftex.def)             Requested size: 362.37569pt x 157.9544pt.
-<images/Implementation/ts.png, id=271, 1166.85938pt x 530.73282pt>
+Package pdftex.def Info: images/Implementation/haconfig.png  used on input line 815.
+(pdftex.def)             Requested size: 407.66833pt x 177.69872pt.
+<images/Implementation/ts.png, id=299, 1166.85938pt x 530.73282pt>
 File: images/Implementation/ts.png Graphic file (type png)
 <use images/Implementation/ts.png>
-Package pdftex.def Info: images/Implementation/ts.png  used on input line 883.
-(pdftex.def)             Requested size: 362.37569pt x 164.817pt.
-<images/Implementation/tspolicy.png, id=272, 1006.51031pt x 475.7775pt>
+Package pdftex.def Info: images/Implementation/ts.png  used on input line 823.
+(pdftex.def)             Requested size: 407.66833pt x 185.41913pt.
+<images/Implementation/tspolicy.png, id=300, 1006.51031pt x 475.7775pt>
 File: images/Implementation/tspolicy.png Graphic file (type png)
 <use images/Implementation/tspolicy.png>
-Package pdftex.def Info: images/Implementation/tspolicy.png  used on input line 889.
+Package pdftex.def Info: images/Implementation/tspolicy.png  used on input line 829.
 (pdftex.def)             Requested size: 362.37569pt x 171.29428pt.
-<images/Implementation/auto.png, id=273, 1257.94969pt x 629.35126pt>
+<images/Implementation/auto.png, id=301, 1257.94969pt x 629.35126pt>
 File: images/Implementation/auto.png Graphic file (type png)
 <use images/Implementation/auto.png>
-Package pdftex.def Info: images/Implementation/auto.png  used on input line 898.
-(pdftex.def)             Requested size: 362.37569pt x 181.2972pt.
- [48 <./images/Implementation/haconfig.png> <./images/Implementation/ts.png>] [49 <./images/Implementation/tspolicy.png> <./images/Implementation/auto.png>]
+Package pdftex.def Info: images/Implementation/auto.png  used on input line 840.
+(pdftex.def)             Requested size: 407.66833pt x 203.95094pt.
+
+
+[54 <./images/Implementation/haconfig.png>]
+
+[55 <./images/Implementation/ts.png> <./images/Implementation/tspolicy.png>]
+
+[56 <./images/Implementation/auto.png>]
+
+[57]
+
+[58]
 Chapter 5.
-[50
+
+
+[59
 
 ]
+
+[60]
+
+[61]
+
+[62]
 Chapter 6.
-[51
+
+
+[63
 
 ]
+
+[64]
+
+[65]
+
+[66]
 Chapter 7.
-[52
 
-] [53]
+
+[67
+
+]
+
+[68]
 Chapter 8.
-[54
 
-] (./GP.bbl
+
+[69
+
+]
+
+[70]
+
+[71] (./GP.bbl
+LaTeX Font Info:    Trying to load font information for OT1+lmtt on input line 4.
+ (c:/texlive/2024/texmf-dist/tex/latex/lm/ot1lmtt.fd
+File: ot1lmtt.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+)
 Underfull \hbox (badness 10000) in paragraph at lines 4--6
-[]$\OT1/cmtt/m/n/12 https : / / www . cisco . com / c / en _ uk / products / security / firewalls / index-[]1b .
+[]$\OT1/lmtt/m/n/12 https : / / www . cisco . com / c / en _ uk / products / security / firewalls / index-[]1b .
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 16--18
-[]$\OT1/cmtt/m/n/12 https : / / www . enbitcon . com / shop / fortinet / promo / fortinet-[]promo /
+[]$\OT1/lmtt/m/n/12 https : / / www . enbitcon . com / shop / fortinet / promo / fortinet-[]promo /
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 20--22
-[]$\OT1/cmtt/m/n/12 https : / / www . computernetworkingnotes . com / ccna-[]study-[]guide /
+[]$\OT1/lmtt/m/n/12 https : / / www . fortinet . com / br / products / next-[]generation-[]firewall /
  []
 
 
-Underfull \hbox (badness 3826) in paragraph at lines 20--22
-\OT1/cmtt/m/n/12 how-[]to-[]configure-[]dynamic-[]nat-[]in-[]cisco-[]router . html$\OT1/cmr/m/n/12 .  Ac-cessed: 2024-
+Underfull \hbox (badness 10000) in paragraph at lines 48--50
+[]$\OT1/lmtt/m/n/12 https : / / www . computernetworkingnotes . com / ccna-[]study-[]guide /
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 44--46
-[]$\OT1/cmtt/m/n/12 https : / / www . ineteconomics . org / research / research-[]papers /
+Underfull \hbox (badness 3930) in paragraph at lines 48--50
+\OT1/lmtt/m/n/12 how-[]to-[]configure-[]dynamic-[]nat-[]in-[]cisco-[]router . html$\OT1/lmr/m/n/12 .  Ac-cessed: 2024-
  []
 
 
-Overfull \hbox (135.19876pt too wide) in paragraph at lines 44--46
-\OT1/cmtt/m/n/12 the-[]pursuit-[]of-[]shareholder-[]value-[]ciscos-[]transformation-[]from-[]innovation-[]to-[]financialization$\OT1/cmr/m/n/12 .
+
+[72
+
+{c:/texlive/2024/texmf-dist/fonts/enc/dvips/lm/lm-rmtt.enc}]
+Underfull \hbox (badness 10000) in paragraph at lines 72--74
+[]$\OT1/lmtt/m/n/12 https : / / www . ineteconomics . org / research / research-[]papers /
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 52--54
-[]$\OT1/cmtt/m/n/12 https : / / www . checkpoint . com / cyber-[]hub / network-[]security /
+Overfull \hbox (135.19926pt too wide) in paragraph at lines 72--74
+\OT1/lmtt/m/n/12 the-[]pursuit-[]of-[]shareholder-[]value-[]ciscos-[]transformation-[]from-[]innovation-[]to-[]financialization$\OT1/lmr/m/n/12 .
  []
 
 
-Overfull \hbox (203.1238pt too wide) in paragraph at lines 56--58
-[]$\OT1/cmtt/m/n/12 https : / / luminisindia . com / it-[]networking-[]blog / 153-[]journey-[]from-[]legacy-[]to-[]next-[]generation-[]firewalls-[]ngfw$\OT1/cmr/m/n/12 .
- []
-
-[55
-
-]
-Underfull \hbox (badness 10000) in paragraph at lines 60--62
-[]$\OT1/cmtt/m/n/12 https : / / docs . fortinet . com / document / fortigate / 7 . 4 . 4 /
+Underfull \hbox (badness 10000) in paragraph at lines 80--82
+[]$\OT1/lmtt/m/n/12 https : / / www . checkpoint . com / cyber-[]hub / network-[]security /
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 60--62
-\OT1/cmtt/m/n/12 administration-[]guide / 118003 / policies# : [] : text = These % 20policies % 20are %
- []
-
-
-Underfull \hbox (badness 2111) in paragraph at lines 60--62
-\OT1/cmtt/m/n/12 20essentially % 20discrete ,[] to % 20pass % 20through % 20the % 20FortiGate.$  \OT1/cmr/m/n/12 Ac-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 64--66
-[]$\OT1/cmtt/m/n/12 https : / / www . cloudflare . com / learning / network-[]layer /
- []
-
-
-Underfull \hbox (badness 7649) in paragraph at lines 72--74
-[]$\OT1/cmtt/m/n/12 https : / / www . fortinet . com / products / wireless-[]access-[]points$\OT1/cmr/m/n/12 .  Ac-cessed:
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 76--78
-[]$\OT1/cmtt/m/n/12 https : / / docs . fortinet . com / document / fortigate / 5 . 6 . 0 / cookbook / 335151 /
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 84--86
-[]$\OT1/cmtt/m/n/12 https : / / docs . fortinet . com / document / fortigate / 7 . 4 . 4 /
+Overfull \hbox (203.1243pt too wide) in paragraph at lines 84--86
+[]$\OT1/lmtt/m/n/12 https : / / luminisindia . com / it-[]networking-[]blog / 153-[]journey-[]from-[]legacy-[]to-[]next-[]generation-[]firewalls-[]ngfw$\OT1/lmr/m/n/12 .
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 88--90
-[]$\OT1/cmtt/m/n/12 https : / / docs . fortinet . com / document / fortigate / 7 . 4 . 4 /
+[]$\OT1/lmtt/m/n/12 https : / / docs . fortinet . com / document / fortigate / 7 . 4 . 4 /
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 88--90
+\OT1/lmtt/m/n/12 administration-[]guide / 118003 / policies# : [] : text = These % 20policies % 20are %
+ []
+
+
+Underfull \hbox (badness 2237) in paragraph at lines 88--90
+\OT1/lmtt/m/n/12 20essentially % 20discrete ,[] to % 20pass % 20through % 20the % 20FortiGate.$  \OT1/lmr/m/n/12 Ac-
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 92--94
-[]$\OT1/cmtt/m/n/12 https : / / docs . paloaltonetworks . com / pan-[]os / 9-[]1 / pan-[]os-[]admin /
+[]$\OT1/lmtt/m/n/12 https : / / www . cloudflare . com / learning / network-[]layer /
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 96--98
-[]\OT1/cmr/m/n/12 https://docs.fortinet.com/document/fortigate/5.4.0/cookbook/361386/protecting-
+Underfull \hbox (badness 7944) in paragraph at lines 100--102
+[]$\OT1/lmtt/m/n/12 https : / / www . fortinet . com / products / wireless-[]access-[]points$\OT1/lmr/m/n/12 .  Ac-cessed:
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 100--102
-[]$\OT1/cmtt/m/n/12 https : / / www . fortinet . com / resources / cyberglossary /
+Underfull \hbox (badness 10000) in paragraph at lines 104--106
+[]$\OT1/lmtt/m/n/12 https : / / www . fortinet . com / content / dam / fortinet / assets / data-[]sheets /
  []
 
-[56]
+
 Underfull \hbox (badness 10000) in paragraph at lines 108--110
-[]$\OT1/cmtt/m/n/12 https : / / www . cloudflare . com / learning / network-[]layer / ipsec-[]vs-[]ssl-[]vpn/$\OT1/cmr/m/n/12 .
+[]$\OT1/lmtt/m/n/12 https : / / www . fortinet . com / content / dam / fortinet / assets / data-[]sheets /
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 112--114
-[]$\OT1/cmtt/m/n/12 https : / / docs . fortinet . com / document / fortigate / 7 . 4 . 4 /
+[]$\OT1/lmtt/m/n/12 https : / / www . fortinet . com / content / dam / fortinet / assets / data-[]sheets /
+ []
+
+
+
+[73]
+Underfull \hbox (badness 10000) in paragraph at lines 116--118
+[]$\OT1/lmtt/m/n/12 https : / / www . fortinet . com / content / dam / fortinet / assets / data-[]sheets /
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 120--122
-[]$\OT1/cmtt/m/n/12 https : / / www . fortinet . com / resources / cyberglossary /
+[]$\OT1/lmtt/m/n/12 https : / / www . fortinet . com / content / dam / fortinet / assets / data-[]sheets /
  []
 
 
-Overfull \hbox (64.27373pt too wide) in paragraph at lines 124--126
-[]$\OT1/cmtt/m/n/12 https : / / www . ibm . com / docs / en / i / 7 . 3 ? topic = services-[]trivial-[]file-[]transfer-[]protocol$\OT1/cmr/m/n/12 .
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 128--130
-[]$\OT1/cmtt/m/n/12 https : / / docs . fortinet . com / document / fortigate / 6 . 4 . 0 /
+Underfull \hbox (badness 10000) in paragraph at lines 124--126
+[]$\OT1/lmtt/m/n/12 https : / / docs . fortinet . com / document / fortigate / 5 . 6 . 0 / cookbook / 335151 /
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 132--134
-[]$\OT1/cmtt/m/n/12 https : / / docs . fortinet . com / document / fortigate / 7 . 4 . 4 /
+[]$\OT1/lmtt/m/n/12 https : / / docs . fortinet . com / document / fortigate / 7 . 4 . 4 /
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 136--138
-[]$\OT1/cmtt/m/n/12 https : / / docs . fortinet . com / document / fortigate / 6 . 2 . 16 / cookbook / 605868 /
+[]$\OT1/lmtt/m/n/12 https : / / docs . fortinet . com / document / fortigate / 7 . 4 . 4 /
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 140--142
-[]$\OT1/cmtt/m/n/12 https : / / docs . fortinet . com / document / fortigate / 6 . 2 . 16 / cookbook / 302748 /
+[]$\OT1/lmtt/m/n/12 https : / / docs . paloaltonetworks . com / pan-[]os / 9-[]1 / pan-[]os-[]admin /
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 144--146
-[]$\OT1/cmtt/m/n/12 https : / / docs . fortinet . com / document / fortigate / 6 . 2 . 16 / cookbook / 565562 /
+[]\OT1/lmr/m/n/12 https://docs.fortinet.com/document/fortigate/5.4.0/cookbook/361386/protecting-
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 148--150
-[]$\OT1/cmtt/m/n/12 https : / / docs . fortinet . com / document / fortigate / 6 . 2 . 16 / cookbook / 836396 /
- []
-
-[57]
-Underfull \hbox (badness 10000) in paragraph at lines 152--154
-[]$\OT1/cmtt/m/n/12 https : / / docs . fortinet . com / document / fortigate / 6 . 2 . 16 / cookbook / 929997 /
+[]$\OT1/lmtt/m/n/12 https : / / www . fortinet . com / resources / cyberglossary /
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 156--158
-[]$\OT1/cmtt/m/n/12 https : / / docs . fortinet . com / document / fortigate / 6 . 2 . 16 / cookbook / 933502 /
+[]$\OT1/lmtt/m/n/12 https : / / www . cloudflare . com / learning / network-[]layer / ipsec-[]vs-[]ssl-[]vpn/$\OT1/lmr/m/n/12 .
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 160--162
-[]$\OT1/cmtt/m/n/12 https : / / docs . fortinet . com / document / fortigate / 6 . 2 . 16 / cookbook / 885253 /
+[]$\OT1/lmtt/m/n/12 https : / / docs . fortinet . com / document / fortigate / 7 . 4 . 4 /
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 164--165
-[]$\OT1/cmtt/m/n/12 https : / / www . petra . gov . jo / Include / InnerPage . jsp ? ID = 267484 & lang = ar &
+
+[74]
+Underfull \hbox (badness 10000) in paragraph at lines 168--170
+[]$\OT1/lmtt/m/n/12 https : / / www . fortinet . com / resources / cyberglossary /
  []
 
 
-Underfull \hbox (badness 3503) in paragraph at lines 183--185
-[]$\OT1/cmtt/m/n/12 https : / / www . ieee . org / about / corporate / governance / p7-[]8 . html$\OT1/cmr/m/n/12 .  Ac-cessed:
+Overfull \hbox (64.27423pt too wide) in paragraph at lines 172--174
+[]$\OT1/lmtt/m/n/12 https : / / www . ibm . com / docs / en / i / 7 . 3 ? topic = services-[]trivial-[]file-[]transfer-[]protocol$\OT1/lmr/m/n/12 .
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 187--189
-[]$\OT1/cmtt/m/n/12 https : / / investor . fortinet . com / committee-[]details /
+Underfull \hbox (badness 10000) in paragraph at lines 176--178
+[]$\OT1/lmtt/m/n/12 https : / / docs . fortinet . com / document / fortigate / 6 . 4 . 0 /
  []
 
-) [58]
-Appendix A.
-[59
 
-] (./GP.aux)
+Underfull \hbox (badness 10000) in paragraph at lines 180--182
+[]$\OT1/lmtt/m/n/12 https : / / docs . fortinet . com / document / fortigate / 7 . 4 . 4 /
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 184--186
+[]$\OT1/lmtt/m/n/12 https : / / docs . fortinet . com / document / fortigate / 6 . 2 . 16 / cookbook / 605868 /
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 188--190
+[]$\OT1/lmtt/m/n/12 https : / / docs . fortinet . com / document / fortigate / 6 . 2 . 16 / cookbook / 302748 /
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 192--194
+[]$\OT1/lmtt/m/n/12 https : / / docs . fortinet . com / document / fortigate / 6 . 2 . 16 / cookbook / 565562 /
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 196--198
+[]$\OT1/lmtt/m/n/12 https : / / docs . fortinet . com / document / fortigate / 6 . 2 . 16 / cookbook / 836396 /
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 200--202
+[]$\OT1/lmtt/m/n/12 https : / / docs . fortinet . com / document / fortigate / 6 . 2 . 16 / cookbook / 929997 /
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 204--206
+[]$\OT1/lmtt/m/n/12 https : / / docs . fortinet . com / document / fortigate / 6 . 2 . 16 / cookbook / 933502 /
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 208--210
+[]$\OT1/lmtt/m/n/12 https : / / docs . fortinet . com / document / fortigate / 6 . 2 . 16 / cookbook / 885253 /
+ []
+
+
+
+[75]
+Underfull \hbox (badness 10000) in paragraph at lines 212--213
+[]$\OT1/lmtt/m/n/12 https : / / www . petra . gov . jo / Include / InnerPage . jsp ? ID = 267484 & lang = ar &
+ []
+
+
+Overfull \hbox (25.46022pt too wide) in paragraph at lines 227--229
+[]$\OT1/lmtt/m/n/12 https : / / www . connection . com / product / fortinet-[]fortigate-[]1800f-[]dc-[]h-[]w-[]3yr-[]f /
+ []
+
+
+Overfull \hbox (411.8034pt too wide) in paragraph at lines 231--233
+[]$\OT1/lmtt/m/n/12 https : / / www . connection . com / product / fortinet-[]fortiswitch-[]1048e-[]1u-[]rm-[]managed-[]switch-[]8gb-[]ram-[]128gb-[]flash-[]48x10gbe-[]6x40gbe-[]4x100gbe-[]2xpsu /
+ []
+
+
+Overfull \hbox (148.96028pt too wide) in paragraph at lines 235--237
+[]$\OT1/lmtt/m/n/12 https : / / www . connection . com / product / fortinet-[]fortiswitch-[]1048e-[]5-[]year-[]24x7-[]forticare-[]contract /
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 239--241
+[]$\OT1/lmtt/m/n/12 https : / / www . connection . com / product / fortinet / 7468945 / 30873531 ? cm _ sp =
+ []
+
+
+Overfull \hbox (387.6104pt too wide) in paragraph at lines 243--245
+[]$\OT1/lmtt/m/n/12 https : / / www . connection . com / product / fortinet-[]fortiswitch-[]424d-[]poe-[]1u-[]rm-[]managed-[]switch-[]1gb-[]ram-[]128mb-[]flash-[]24xgbe-[]poe-[]2x10gbe-[]1xpsu /
+ []
+
+
+Overfull \hbox (36.80322pt too wide) in paragraph at lines 247--249
+[]$\OT1/lmtt/m/n/12 https : / / www . connection . com / product / fortinet-[]fortigate-[]600f-[]hardware-[]plus-[]5 /
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 251--253
+[]$\OT1/lmtt/m/n/12 https : / / www . connection . com / product / fortinet-[]fortiap-[]431f-[]a-[]domain /
+ []
+
+
+Overfull \hbox (61.51024pt too wide) in paragraph at lines 255--257
+[]$\OT1/lmtt/m/n/12 https : / / www . connection . com / product / fortinet-[]outdoor-[]wireless-[]fortiap-[]tri-[]radio /
+ []
+
+
+Overfull \hbox (36.81023pt too wide) in paragraph at lines 259--261
+[]$\OT1/lmtt/m/n/12 https : / / www . connection . com / product / fortinet-[]fortiap-[]432f-[]5yr-[]forticare-[]eli /
+ []
+
+
+
+[76]
+Overfull \hbox (293.48535pt too wide) in paragraph at lines 263--265
+[]$\OT1/lmtt/m/n/12 https : / / www . connection . com / product / cisco-[]firepower-[]4115-[]asa-[]1u-[]firewall-[]400gb-[]hdd-[]8x10gbe-[]sfp-[]2x1100w-[]2xnetmod-[]bays /
+ []
+
+
+Overfull \hbox (149.95328pt too wide) in paragraph at lines 267--269
+[]$\OT1/lmtt/m/n/12 https : / / www . connection . com / product / cisco-[]catalyst-[]9500-[]network-[]advantage-[]l3-[]mngd-[]switch-[]1x-[]2 .
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 267--269
+\OT1/lmtt/m/n/12 4ghz-[]cpu-[]16gb-[]ram-[]16gb-[]flash-[]48x25gbe / c9500-[]48y4c-[]a / 36789656$\OT1/lmr/m/n/12 .  Ac-
+ []
+
+
+Overfull \hbox (350.55338pt too wide) in paragraph at lines 271--273
+[]$\OT1/lmtt/m/n/12 https : / / www . connection . com / product / cisco-[]catalyst-[]9300-[]24-[]port-[]gbe-[]switch-[]w-[]modular-[]uplinks-[]350w-[]ac-[]network-[]advantage-[]1-[]year /
+ []
+
+
+Overfull \hbox (224.55331pt too wide) in paragraph at lines 275--277
+[]$\OT1/lmtt/m/n/12 https : / / www . connection . com / product / cisco-[]catalyst-[]9200-[]24-[]port-[]switch-[]w-[]modular-[]uplink-[]network-[]advantage /
+ []
+
+
+Overfull \hbox (113.91026pt too wide) in paragraph at lines 279--281
+[]$\OT1/lmtt/m/n/12 https : / / www . connection . com / product / cisco-[]aironet-[]4800-[]ap-[]w-[]ca-[]4x4-[]3ss-[]int-[]ant-[]b-[]domain /
+ []
+
+
+Overfull \hbox (13.10321pt too wide) in paragraph at lines 283--285
+[]$\OT1/lmtt/m/n/12 https : / / www . connection . com / product / cisco-[]wi-[]fi-[]6-[]outdoor-[]ap-[]external-[]a /
+ []
+
+
+Underfull \hbox (badness 3690) in paragraph at lines 291--293
+[]$\OT1/lmtt/m/n/12 https : / / www . ieee . org / about / corporate / governance / p7-[]8 . html$\OT1/lmr/m/n/12 .  Ac-cessed:
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 295--297
+[]$\OT1/lmtt/m/n/12 https : / / investor . fortinet . com / committee-[]details /
+ []
+
+)
+
+[77] (./GP.aux)
  ***********
-LaTeX2e <2023-11-01>
-L3 programming layer <2023-11-09>
+LaTeX2e <2024-06-01> patch level 2
+L3 programming layer <2024-05-27>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 6616 strings out of 474267
- 111806 string characters out of 5751465
- 1942558 words of memory out of 5000000
- 28757 multiletter control sequences out of 15000+600000
- 563435 words of font info for 54 fonts, out of 8000000 for 9000
+ 6920 strings out of 473584
+ 117876 string characters out of 5732363
+ 1944908 words of memory out of 5000000
+ 29717 multiletter control sequences out of 15000+600000
+ 593681 words of font info for 57 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 68i,17n,67p,1754b,486s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb>
-Output written on GP.pdf (68 pages, 4650029 bytes).
+ 68i,17n,67p,2058b,592s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<c:/texlive/2024/texmf-dist/fonts/type1/public/lm/lmbx12.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/lm/lmr12.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/lm/lmtt12.pfb>
+Output written on GP.pdf (86 pages, 5482264 bytes).
 PDF statistics:
- 338 PDF objects out of 1000 (max. 8388607)
- 174 compressed objects within 2 object streams
+ 407 PDF objects out of 1000 (max. 8388607)
+ 215 compressed objects within 3 object streams
  0 named destinations out of 1000 (max. 500000)
- 226 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 261 words of extra memory for PDF output out of 10000 (max. 10000000)
 
